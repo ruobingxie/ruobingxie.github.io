@@ -1,833 +1,211 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ruobing Xie's Homepage</title>
-<link rel="stylesheet" type="text/css" href="xrb.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Homepage of Ruobing Xie, Senior Researcher at Tencent Hunyuan. Large language models, pre-training, and recommender systems.">
+<meta name="theme-color" content="#146c8a">
+<title>Ruobing Xie (谢若冰)</title>
+<link rel="stylesheet" href="xrb.css?v=6">
 </head>
-
 <body>
-<table width="95%">
-<tr>
-<th align="left"><h1>Ruobing Xie (<FONT style="FONT-FAMILY: 楷体">谢若冰</FONT>) </h1></th> 
-</tr>
-</table>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">Ruobing Xie</a>
+    <nav class="nav" aria-label="Section">
+      <a href="#bio">Bio</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#awards">Awards</a>
+      <a href="#services">Service</a>
+    </nav>
+  </div>
+</header>
 
-<table>
-<td> <img style="float:left;margin-right:50px" src="images/Ruobing_Xie.jpg" width="210" margin=> </td>
-<td width="5"> &nbsp; </td>
+<div class="page" id="top">
+  <aside class="sidebar">
+    <img class="portrait" src="images/Ruobing_Xie.jpg" alt="Portrait of Ruobing Xie">
+    <h1 class="profile-name">Ruobing Xie</h1>
+    <p class="profile-zh">谢若冰</p>
+    <p class="profile-role">Senior Researcher</p>
+    <ul class="profile-list">
+      <li class="icon-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M4 19V5h16v14H4z"/><path d="M4 9h16M9 5v4"/></svg>
+        <a href="https://hy.tencent.ai" target="_blank" rel="noopener noreferrer">Tencent Hunyuan</a>
+      </li>
+      <li class="icon-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.2"/></svg>
+        <span>Beijing, China</span>
+      </li>
+      <li class="icon-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        <span>xrbsnowing [at] 163.com</span>
+      </li>
+      <li class="icon-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M7 17V7h3.2a3.2 3.2 0 0 1 0 6.4H7"/><path d="M14 17l4.5-10H20"/></svg>
+        <a href="https://scholar.google.com/citations?user=j3OX8KUAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      </li>
+    </ul>
+    <div class="tags" aria-label="Research interests">
+      <span>Large Language Model</span>
+      <span>Pre-training</span>
+      <span>Recommender System</span>
+    </div>
+    <p class="note">I am always looking for highly-motivated students to work together in LLM pre-training, including optimizer-architecture co-design and LLM structure.</p>
+  </aside>
 
-<td>
+  <main>
+    <section class="section" id="bio">
+      <h2>Bio</h2>
+      <p class="lead">Ruobing Xie is a senior researcher of Tencent Hy. He received his BEng degree in 2014 and his master degree in 2017 from the Department of Computer Science and Technology, Tsinghua University. His research interests include Large Language Model, Pre-training, and Recommender System. He has published 100+ papers in top-tier conferences and journals including ACL, ICML, NeurIPS, KDD, AAAI, with 16000+ citations according to Google Scholar. He has received the first prize of the Natural Science Award (Science and Technology) of the Ministry of Education, RecSys 2024 Best Full Paper, RecSys 2023 Best Short Paper, the Paper Award Nominations of TheWebConf 2023 (spotlight), EMNLP 2025 SAC highlight, and CCIR 2024 best paper candidate. He is supported by Scholar of Young Talent Promoting Project of CAST, and is the World&#x27;s Top 2 % Scientists. He is a member of Chinese Information Processing Society of China, Youth Working Committee &amp; Social Media Processing Committee &amp; Information Retrieval Committee. He serves as AC of ACL, AAAI, EMNLP, NAACL, etc.</p>
+      <p class="lead"><span class="kaiti">谢若冰，腾讯混元高级研究员，2017年毕业于清华大学自然语言处理与社会人文计算实验室，人工智能高级工程师，主要研究方向为大语言模型、预训练、推荐系统等。他于</span>ACL、ICML、NeurIPS、KDD、AAAI<span class="kaiti">等顶会期刊共发表相关论文100余篇，</span>Google Scholar<span class="kaiti">统计引用超过16000次，</span>h index<span class="kaiti">超过50。他曾获教育部自然科学一等奖，世界互联网领先科技成果奖，</span>RecSys 2024<span class="kaiti">最佳论文，</span>RecSys 2023<span class="kaiti">最佳短文，</span>WWW 2023<span class="kaiti">亮点论文（最佳论文提名），</span>EMNLP 2025 SAC highlight<span class="kaiti">，</span>CCIR 2024<span class="kaiti">最佳论文提名等。他入选了中国科协青年人才托举工程，全球前2%顶尖科学家，西贝尔学者，担任中国中文信息学会青年工作委员会委员、社会媒体处理专委会委员、信息检索专委会通讯委员、</span>ACL/AAAI/EMNLP/NAACL<span class="kaiti">领域主席等。</span></p>
+    </section>
 
-<h4>
-Senior Researcher<br>
-<a href="https://hy.tencent.ai" target="_blank">Tencent Hunyuan.</a><br> 
-</h4>
+    <section class="section" id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li><time>Sep. 2026</time><p>Got one paper accepted at NeurIPS about LLM quantization.</p></li>
+        <li class="hot"><time>Aug. 2026</time><p>Release Hunyuan research blog -- From LR to ELR: A Better Heuristic for Pretraining Dynamics <a class="res" href="https://hy.tencent.ai/research/elr" target="_blank" rel="noopener noreferrer">Link</a>.</p></li>
+        <li><time>Aug. 2026</time><p>Got five papers accepted at EMNLP about MoE scaling law, high-dimensional RoPE, quantization, sparse SFT, and RL4RAG.</p></li>
+        <li><time>Jul. 2026</time><p>Attended ICML 2026 at Seoul, South Korea.</p></li>
+        <li><time>Jul. 2026</time><p>Got two papers accepted at TOIS and TKDE about LLM4Rec.</p></li>
+        <li><time>Apr. 2026</time><p>Got four papers accepted at ACL and ICML about MoE routing strategy, multi-teacher distillation, joint SFT&amp;OPD training, and mechanistic interpretability of LLM.</p></li>
+        <li><time>Jan. 2026</time><p>Got four papers accepted at ICLR about more generalized SFT, dynamic data mixing, and RL self-rewarding of LLM.</p></li>
+        <li><time>Jan. 2026</time><p>Got three papers accepted at AAAI and TOIS about hybrid LLM and negative sampling in recommendation.</p></li>
+        <li class="hot"><time>Nov. 2025</time><p>Received EMNLP 2025 SAC highlight award!</p></li>
+        <li><time>Nov. 2025</time><p>Attended EMNLP 2025 at Suzhou, China.</p></li>
+        <li><time>Nov. 2025</time><p>Got one paper accepted at AAAI about Full/Linear attention hybrid model.</p></li>
+      </ul>
+    </section>
 
-<h4>
-Graduated from <a href="http://nlp.csai.tsinghua.edu.cn" target="_blank">Natural Language Processing Lab</a>,<br>
-<a href="http://www.cs.tsinghua.edu.cn" target="_blank">Department of Computer Science and Technology</a>,<br>
-<a href="http://www.tsinghua.edu.cn" target="_blank">Tsinghua University</a>, Beijing, China.<br> 
-</h4>
+    <section class="section" id="publications">
+      <h2>Selected Publications</h2>
+      <p class="legend">* equal contribution &nbsp;&middot;&nbsp; &dagger; corresponding author</p>
 
-<h4>
-Email: xrbsnowing [at] 163.com <br>
-Google scholar: <A HREF="https://scholar.google.com/citations?&user=j3OX8KUAAAAJ" target=_blank>Ruobing Xie</A> <br>
-Research Interests: Large Language Model, Pre-training, Recommender System <br>
-</h4>
-
-<h4>
-I am always looking for highly-motivated students to work together in LLM pre-training (e.g., optimizer-architecture co-design, LLM structure).
-</h4>
-
-</td>
-</table>
-
-<hr>
-<h3> <a href="#Bio">Bio</a> | <a href="#Publications">Publications</a> | <a href="#Education">Education and Experience</a> | <a href="#Awards">Awards</a> | <a href="#Academic">Academic Services</a> </h3>
-
-
-<hr>
-<h2><a id=Bio>Bio</a></h2>
-
-Ruobing Xie is a senior researcher of Tencent Hy. He received his BEng degree in 2014 and his master degree in 2017 from the Department of Computer Science and Technology, Tsinghua University. His research interests include Large Language Model, Pre-training, and Recommender System. He has published 100+ papers in top-tier conferences and journals including ACL, ICML, NeurIPS, KDD, AAAI, with 16000+ citations according to Google Scholar. He has received the first prize of the Natural Science Award (Science and Technology) of the Ministry of Education, RecSys 2024 Best Full Paper, RecSys 2023 Best Short Paper, the Paper Award Nominations of TheWebConf 2023 (spotlight), EMNLP 2025 SAC highlight, and CCIR 2024 best paper candidate. He is supported by Scholar of Young Talent Promoting Project of CAST, and is the World's Top 2 % Scientists. He is a member of Chinese Information Processing Society of China, Youth Working Committee & Social Media Processing Committee & Information Retrieval Committee. He serves as AC of ACL, AAAI, EMNLP, NAACL, etc. 
-
-<br><br>
-<FONT style="FONT-FAMILY: 楷体">
-谢若冰，腾讯混元高级研究员，2017年毕业于清华大学自然语言处理与社会人文计算实验室，人工智能高级工程师，主要研究方向为大语言模型、预训练、推荐系统等。他于</FONT>ACL、ICML、NeurIPS、KDD、AAAI<FONT style="FONT-FAMILY: 楷体">等顶会期刊共发表相关论文100余篇，</FONT>Google Scholar<FONT style="FONT-FAMILY: 楷体">统计引用超过16000次，</FONT>h index<FONT style="FONT-FAMILY: 楷体">超过50。他曾获教育部自然科学一等奖，世界互联网领先科技成果奖，</FONT>RecSys 2024<FONT style="FONT-FAMILY: 楷体">最佳论文，</FONT>RecSys 2023<FONT style="FONT-FAMILY: 楷体">最佳短文，</FONT>WWW 2023<FONT style="FONT-FAMILY: 楷体">亮点论文（最佳论文提名），</FONT>EMNLP 2025 SAC highlight<FONT style="FONT-FAMILY: 楷体">，</FONT>CCIR 2024<FONT style="FONT-FAMILY: 楷体">最佳论文提名等。他入选了中国科协青年人才托举工程，全球前2%顶尖科学家，西贝尔学者，担任中国中文信息学会青年工作委员会委员、社会媒体处理专委会委员、信息检索专委会通讯委员、</FONT>ACL/AAAI/EMNLP/NAACL<FONT style="FONT-FAMILY: 楷体">领域主席等。</FONT>
+      <h3 class="year" id="Pre-training">Pre-training</h3>
+      <article class="paper"><h3>Towards a Comprehensive Scaling Law of Mixture-of-Experts</h3><p class="authors">Guoliang Zhao, Yuhan Fu, Shuaipeng Li, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, An Wang, Weidong Han, Zhen Yang, Weixuan Sun, Yudong Zhang, Cheng-zhong Xu, Di Wang, Jie Jiang</p><p class="meta"><span class="venue">EMNLP&#x27;26</span></p></article>
+      <article class="paper"><h3>Higher-Dimensional Rotary Position Embedding</h3><p class="authors">Yixing Li, <b>Ruobing Xie&dagger;</b>, Yudong Zhang, Yushi Bai, Xingwu Sun, Yu Cheng</p><p class="meta"><span class="venue">EMNLP&#x27;26 findings</span></p></article>
+      <article class="paper"><h3>TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model</h3><p class="authors">Yixing Li, <b>Ruobing Xie&dagger;</b>, Zhen Yang, Xingwu Sun, Shuaipeng Li, Weidong Han, Zhanhui Kang, Di Wang, Yu Cheng&dagger;.</p><p class="meta"><span class="venue">AAAI&#x27;26</span></p></article>
+      <article class="paper"><h3>HMoE: Heterogeneous Mixture of Experts for Language Modeling</h3><p class="authors">An Wang, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, Weidong Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu.</p><p class="meta"><span class="venue">EMNLP&#x27;25</span><span class="badge">EMNLP 2025 SAC highlight</span></p></article>
+      <article class="paper"><h3>Autonomy-of-Experts Models</h3><p class="authors">Ang Lv, <b>Ruobing Xie&dagger;</b>, Yining Qian, Songhao Wu, Xingwu Sun, Zhanhui Kang, Di Wang, Rui Yan&dagger;.</p><p class="meta"><span class="venue">ICML&#x27;25</span></p></article>
 
 
-<h2><a id=News>News</a></h2>
-<ul>
-<li>[Sep. 2026]		Got one paper accepted at NeurIPS about LLM quantization.
-<li><span style="color:red">[Aug. 2026]		Release Hunyuan research blog -- From LR to ELR: A Better Heuristic for Pretraining Dynamics [<A HREF="https://hy.tencent.ai/research/elr" target=_blank>link</A>].</span>
-<li>[Aug. 2026]		Got five papers accepted at EMNLP about MoE scaling law, high-dimensional RoPE, quantization, sparse SFT, and RL4RAG.
-<li>[Jul. 2026]		Attended ICML 2026 at Seoul, South Korea.
-<li>[Jul. 2026]		Got two papers accepted at TOIS and TKDE about LLM4Rec.
-<li>[Apr. 2026]		Got four papers accepted at ACL and ICML about MoE routing strategy, multi-teacher distillation, joint SFT&OPD training, and mechanistic interpretability of LLM.
-<li>[Jan. 2026]		Got four papers accepted at ICLR about more generalized SFT, dynamic data mixing, and RL self-rewarding of LLM.
-<li>[Jan. 2026]		Got three papers accepted at AAAI and TOIS about hybrid LLM and negative sampling in recommendation.
-<li><span style="color:red">[Nov. 2025]		Received EMNLP 2025 SAC highlight award!</span>
-<li>[Nov. 2025]		Attended EMNLP 2025 at Suzhou, China.
-<li>[Nov. 2025]		Got one paper accepted at AAAI about Full/Linear attention hybrid model.
-</ul>
+      <h3 class="year" id="Post-training">Post-training</h3>
+      <article class="paper"><h3>Find Your Optimal Teacher: Personalized Data Synthesis via Router-Guided Multi-Teacher Distillation</h3><p class="authors">Hengyuan Zhang, Shiping Yang, Xiao Liang, Chenming Shang, Yuxuan Jiang, Chaofan Tao, Jing Xiong, Hayden Kwok-Hay So, <b>Ruobing Xie</b>, Angel X Chang, Ngai Wong</p><p class="meta"><span class="venue">ACL&#x27;26</span><span class="badge">ACL 2026 Award Nomination</span></p></article>
+      <article class="paper"><h3>Proximal Supervised Fine-Tuning</h3><p class="authors">Wenhong Zhu, <b>Ruobing Xie&dagger;</b>, Rui Wang, Xingwu Sun, Di Wang, Pengfei Liu.</p><p class="meta"><span class="venue">ICLR&#x27;26</span></p></article>
+      <article class="paper"><h3>Advancing LLM Reasoning Generalists with Preference Trees</h3><p class="authors">Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Boji Shan, Zeyuan Liu, Jia Deng, Huimin Chen, <b>Ruobing Xie</b>, Yankai Lin, Zhenghao Liu, Bowen Zhou, Hao Peng, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;25</span></p></article>
+      <article class="paper"><h3>ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback</h3><p class="authors">Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao, Bingxiang He, Wei Zhu, Yuan Ni, Guotong Xie, <b>Ruobing Xie</b>, Yankai Lin, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICML&#x27;24</span></p></article>
 
-<h2><a id=Publications>Publications</a></h2>
-<h3>Journal and Conference Papers</h3>
-<h4>(* indicates equal contribution, &dagger; indicates corresponding author.)</h4>
-<ol>
 
-<h3><strong>2026</strong></h3>
+      <h3 class="year" id="Agent">Agent and Tool Learning</h3>
+      <article class="paper"><h3>Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence</h3><p class="authors">Weize Chen, Ziming You, Ran Li, yitong guan, Chen Qian, Chenyang Zhao, Cheng Yang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;25</span><span class="badge">Spotlight</span></p></article>
+      <article class="paper"><h3>AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems</h3><p class="authors">Junjie Zhang, Yupeng Hou, <b>Ruobing Xie</b>, Wenqi Sun, Julian McAuley, Xin Zhao, Leyu Lin, Ji-Rong Wen.</p><p class="meta"><span class="venue">WWW&#x27;24</span></p></article>
+      <article class="paper"><h3>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</h3><p class="authors">Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, <b>Ruobing Xie</b>, Jie Zhou, Mark Gerstein, dahai li, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;24</span><span class="badge">Spotlight</span></p></article>
+      <article class="paper"><h3>AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents</h3><p class="authors">Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou.</p><p class="meta"><span class="venue">ICLR&#x27;24</span></p></article>
 
-<li>
-	D^2Quant: Accurate Low-bit Post-Training Weight Quantization for LLMs. <i>NeurIPS'26</i>.<br>
-	Xianglong Yan, ChengZhu Bao, Zhiteng Li, Tianao Zhang, Shaoqiu Zhang, <b>Ruobing Xie</b>, Xingwu Sun, Yulun Zhang
-</li>
-<li>
-	Towards a Comprehensive Scaling Law of Mixture-of-Experts. <i>EMNLP'26</i>.<br>
-	Guoliang Zhao, Yuhan Fu, Shuaipeng Li, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, An Wang, Weidong Han, Zhen Yang, Weixuan Sun, Yudong Zhang, Cheng-zhong Xu, Di Wang, Jie Jiang 
-</li>
-<li>
-	HS-SFT: Hybrid Sparse Supervised Fine-tuning for Offline LLM KV Cache Eviction. <i>EMNLP'26</i>.<br>
-	Yuxin Zhang, <b>Ruobing Xie</b>, Wenhao Li, Jun Xia, Xiawu Zheng, Xingwu Sun, Di Wang, Rongrong Ji
-</li>
-<li>
-	Beyond Outliers: A Data-Free Layer-wise Mixed-Precision Quantization Approach Driven by Numerical and Structural Dual-Sensitivity. <i>EMNLP'26</i>.<br>
-	Hengyuan Zhang, Xinrong Chen, Zunhai Su, Xiao Liang, Jing Xiong, Wendong Xu, He Xiao, Chaofan Tao, Wei Zhang, <b>Ruobing Xie</b>, Lei Jiang, Hayden Kwok-Hay So, Ngai Wong 
-</li>
-<li>
-	Higher-Dimensional Rotary Position Embedding. <i>EMNLP'26 findings</i>.<br>
-	Yixing Li, <b>Ruobing Xie&dagger;</b>, Yudong Zhang, Yushi Bai, Xingwu Sun, Yu Cheng
-</li>
-<li>
-	Negative Advantage Is a Double-Edged Sword: Calibrating Advantage in GRPO for Deep Search. <i>EMNLP'26 findings</i>.<br>
-	Jiayi Wu, <b>Ruobing Xie&dagger;</b>, Zeqian Huang, Lei Jiang, Can Xu, Kangyang Luo, Ming Gao, Xiang Li
-</li>
-<li>
-	Self-Distillation for Multi-Token Prediction. <i>AACL'26</i>. [<A HREF="https://arxiv.org/abs/2603.23911" target=_blank>pdf</A>]<br>
-	Guoliang Zhao, <b>Ruobing Xie&dagger;</b>, An Wang, Shuaipeng Li, Huaibing Xie, Xingwu Sun
-</li>	
-<li>
-	A Survey of Linear Attention: Algorithm, Theory, Application, and Infrastructure. <i>TMLR'26</i>.<br>
-	Yudong Zhang, Weixuan Sun, Wei Ding, Xingwu Sun, Ruiqi Xie, Hongyi Wang, Junjie Chen, Jiacheng Liu, Shaobo Wang, Yuwei Zhang, Yiqing Huang, Jiaming Wang, Tianchen Zhao, Weidong Han, Yanfeng Chen, Kai Zhang, Shuaipeng Li, <b>Ruobing Xie&dagger;</b>, Di Wang, Jiansheng Chen, Linfeng Zhang&dagger;, Chengzhong Xu, Yu Wang&dagger;
-</li>
-<li>
-	RosePO: Aligning LLM-based Recommenders with Human Values. <i>TOIS'26</i>.<br>
-	Jiayi Liao, Xiangnan He, <b>Ruobing Xie&dagger;</b>, Jiancan Wu, Yancheng Yuan, Xingwu Sun, Zhanhui Kang, Xiang Wang
-</li>
-<li>
-	Large Language Model Empowered Recommendation Meets All-domain Continual Pre-Training. <i>TKDE'26</i>.<br>
-	Haokai Ma, Yunshan Ma, <b>Ruobing Xie&dagger;</b>, Lei Meng, Jialie Shen, Xingwu Sun, Zhanhui Kang and Tat-Seng Chua
-</li>
-<li>
-	Hybrid Policy Distillation for LLMs. <i>ICML'26</i>.<br>
-	Wenhong Zhu, <b>Ruobing Xie&dagger;</b>, Rui Wang, Pengfei Liu
-</li>
-<li>
-	Union-of-Experts: Experts in Mixture-of-Experts are Secretly Routers. <i>ACL'26</i>.<br>
-	Songhao Wu, Ang Lv, <b>Ruobing Xie&dagger;</b>, Xingwu Sun, Di Wang, Rui Yan, Yankai Lin
-</li>
-<li>
-	Find Your Optimal Teacher: Personalized Data Synthesis via Router-Guided Multi-Teacher Distillation. <i>ACL'26</i>.<br>
-	Hengyuan Zhang, Shiping Yang, Xiao Liang, Chenming Shang, Yuxuan Jiang, Chaofan Tao, Jing Xiong, Hayden Kwok-Hay So, <b>Ruobing Xie</b>, Angel X Chang, Ngai Wong
-</li>
-<li>
-	Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models. <i>ACL'26 findings</i>.<br>
-	Hengyuan Zhang, Zhihao Zhang, Ercong Nie, Mingyang Wang, Zunhai Su, Yiwei Wang, Qianli Wang, Shuzhou Yuan, Xufeng Duan, Qibo Xue, Zeping Yu, Chenming Shang, Xiao Liang, Jing Xiong, Hui Shen, Chaofan Tao, Zhengwu Liu, Senjie Jin, Zhiheng Xi, Dongdong Zhang, Sophia Ananiadou, Tao Gui, <b>Ruobing Xie</b>, Hayden Kwok-Hay So, Hinrich Schuetze, Xuanjing Huang, Qi Zhang, Ngai Wong
-</li>
-<li>
-	Dynamic Important Example Mining for Reinforcement Finetuning. <i>CVPR'26</i>.<br>
-	Haoru Tan, Sitong Wu, Yanfeng Chen, Shizhen Zhao, Shizhen_Zhao, Yang-Tian Sun, Tianjia Liu, Chirui Chang, Shaofeng Zhang, Xingwu Sun, Xiuzhe Wu, <b>Ruobing Xie</b>, Xiaojuan Qi
-</li>
-<li>
-	Proximal Supervised Fine-Tuning. <i>ICLR'26</i>.<br>
-	Wenhong Zhu, <b>Ruobing Xie&dagger;</b>, Rui Wang, Xingwu Sun, Di Wang, Pengfei Liu.<br>
-</li>
-<li>
-	LaSeR: Reinforcement Learning with Last-Token Self-Rewarding. <i>ICLR'26</i>.<br>
-	Wenkai Yang, Weijie Liu, <b>Ruobing Xie</b>, Yiju Guo, Lulu Wu, Saiyong Yang, Yankai Lin.<br>
-</li>
-<li>
-	Fast Data Mixture Optimization via Gradient Descent. <i>ICLR'26</i>.<br>
-	Haoru Tan, Sitong Wu, Yanfeng Chen, Jun Xia, <b>Ruobing Xie</b>, Bin Xia, Xingwu Sun, Xiaojuan Qi.<br>
-</li>
-<li>
-	PT2-LLM: Post-Training Ternarization for Large Language Models. <i>ICLR'26</i>.<br>
-	Xianglong Yan, ChengZhu Bao, Zhiteng Li, Tianao Zhang, Kaicheng Yang, Haotong Qin, <b>Ruobing Xie</b>, Xingwu Sun, Yulun Zhang.<br>
-</li>
-<li>
-	Rethinking User Retention Modeling in Recommendation. <i>TOIS'26</i>.<br>
-	Ding Rui, <b>Ruobing Xie&dagger;</b>, Xiaobo Hao, Xiaochun Yang, Kaikai Ge, Xu Zhang, Zhanhui Kang, Jie Zhou, Leyu Lin.<br>
-</li>
-<li>
-	Negative Sampling in Recommendation: A Survey and Future Directions. <i>TOIS'26</i>.<br>
-	Haokai Ma, <b>Ruobing Xie</b>, Lei Meng, Fuli Feng, Xiaoyu Du, Xingwu Sun, Zhanhui Kang, and Xiangxu Meng.<br>
-</li>
-<li>
-	TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model. <i>AAAI'26</i>.<br>
-	Yixing Li, <b>Ruobing Xie&dagger;</b>, Zhen Yang, Xingwu Sun, Shuaipeng Li, Weidong Han, Zhanhui Kang, Di Wang, Yu Cheng&dagger;.<br>
-</li>
 
-<h3><strong>2025</strong></h3>
-	
-<li>
-	Flexible Realignment of Language Models. <i>NeurIPS'25</i>.<br>
-	Wenhong Zhu, <b>Ruobing Xie</b>, Weinan Zhang, Rui Wang.<br>
-</li>
-<li>
-	Curriculum-scheduled Knowledge Distillation from Multiple Pre-trained Teachers for Multi-domain Sequential Recommendation. <i>WWWJ</i>.<br>
-	Wenqi Sun, <b>Ruobing Xie</b>, Junjie Zhang, Wayne Xin Zhao, Leyu Lin and Ji-Rong Wen.<br>
-</li>
-<li>
-	HMoE: Heterogeneous Mixture of Experts for Language Modeling. <i>EMNLP'25</i>.<br>
-	An Wang, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, Weidong Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu.<br>
-	<span style="color:red"><i><b>EMNLP 2025 SAC highlight!</b></i></span><br>
-</li>
-<li>
-	The Security Threat of Compressed Projectors in Large Vision-Language Models. <i>EMNLP'25 findings</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Xingwu Sun, Jiansheng Chen&dagger;, Zhanhui Kang, Di Wang, Yu Wang&dagger;.<br>
-</li>
-<li>
-	Sparsifying Mamba. <i>EMNLP'25 findings</i>.<br>
-	An Wang, <b>Ruobing Xie&dagger;</b>, Shuaipeng Li, Xingwu Sun, Zhanhui Kang.<br>
-</li>
-<li>
-	Fighting Fire with Fire (F3): A Training-free and Efficient Visual Adversarial Example Purification Method in LVLMs. <i>ACMMM'25 BNI</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Yiqing Huang, Jiansheng Chen&dagger;, Xingwu Sun, Zhanhui Kang, Di Wang, Yu Wang&dagger;.<br>
-</li>
-<li>
-	DHCP: Detecting Hallucinations by Cross-modal Attention Pattern in Large Vision-Language Models. <i>ACMMM'25</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Xingwu Sun, Jiansheng Chen&dagger;, Zhanhui Kang, Di Wang, Yu Wang&dagger;.<br>
-</li>
-<li>
-	Harnessing Multimodal Large Language Models for Personalized Product Search with Query-aware Refinement. <i>ACMMM'25</i>.<br>
-	Beibei Zhang, Yanan Lu, <b>Ruobing Xie</b>, Zongyi Li, Siyuan Xing, Tongwei Ren and Fen Lin.<br>
-</li>
-<li>
-	Hybrid-Tower: Fine-grained Pseudo-query Interaction and Generation for Text-to-Video Retrieval. <i>ICCV'25</i>.<br>
-	Bangxiang Lan, <b>Ruobing Xie</b>, Ruixiang Zhao, Xingwu Sun, Zhanhui Kang, Gang Yang, Xirong Li.<br>
-</li>
-<li>
-	FairDGCL: Fairness-aware Recommendation with Dynamic Graph Contrastive Learning. <i>TKDE'25</i>.<br>
-	Wei Chen, Meng Yuan, Zhao Zhang, <b>Ruobing Xie</b>, Fuzhen Zhuang, Deqing Wang and Rui Liu.<br>
-</li>
-<li>
-	PSYCHE: Practical Synthetic Math Data Evolution. <i>NLPCC'25</i>.<br>
-	<b>Ruobing Xie</b>, Yanfeng Chen, Zhen Yang, Xingwu Sun, Shaohua Chen, Zhanhui Kang, TAO YANG.<br>
-</li>
-<li>
-	RAG-targeted SFT Improves RAG-enhanced Math Reasoning. <i>NLPCC'25</i>.<br>
-	Haiye Lin, <b>Ruobing Xie</b>, Hao Zhang, Wenjie Liang, Jin Xu, Ding Zhang, Jiale Wang, Hai-Tao Zheng, Yanfeng Chen, Saiyong Yang, Xingwu Sun, Zhanhui Kang.<br>
-</li>
-<li>
-	Exploring Forgetting in Large Language Model Pre-Training. <i>ACL'25</i>.<br>
-	Chonghua Liao, <b>Ruobing Xie&dagger;</b>, Xingwu Sun, Zhanhui Kang, Haowen Sun, Huazhe Xu.<br>
-</li>
-<li>
-	Fusing Highly Specialized Language Models for Comprehensive Expertise. <i>ACL'25</i>.<br>
-	Ning Ding, Yulin Chen, Ganqu Cui, Xingtai Lv, Weilin Zhao, Kaiyan Zhang, <b>Ruobing Xie</b>, Bowen Zhou, Zhiyuan Liu, Maosong Sun.<br>
-</li>
-<li>
-	Mitigating Hallucination in Multimodal Large Language Model via Hallucination-targeted Direct Preference Optimization. <i>ACL'25</i>.<br>
-	Yuhan Fu*, <b>Ruobing Xie*</b>, Xingwu Sun, Zhanhui Kang, Xirong Li.<br>
-</li>
-<li>
-	Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought. <i>arXiv:2505.15431</i>. [<A HREF="https://arxiv.org/abs/2505.15431" target=_blank>technical report</A>].<br>
-	Tencent Hunyuan Team.<br>
-</li>
-<li>
-	Autonomy-of-Experts Models. <i>ICML'25</i>. [<A HREF="https://arxiv.org/abs/2501.13074" target=_blank>pdf</A>].<br>
-	Ang Lv, <b>Ruobing Xie&dagger;</b>, Yining Qian, Songhao Wu, Xingwu Sun, Zhanhui Kang, Di Wang, Rui Yan&dagger;.<br>
-</li>
-<li>
-	Scaling Laws for Floating Point Quantization Training. <i>ICML'25</i>. [<A HREF="https://arxiv.org/abs/2501.02423" target=_blank>pdf</A>].<br>
-	Xingwu Sun*, Shuaipeng Li*, <b>Ruobing Xie</b>, Weidong Han, Kan Wu, Zhen Yang, Yixing Li, An Wang, Shuai Li, Jinbao Xue, Yu Cheng, Yangyu Tao, Zhanhui Kang, Chengzhong Xu, Di Wang, Jie Jiang. <br>
-</li>
-<li>
-	ID-centric Pre-training for Recommendation. <i>TOIS'25</i>.<br>
-	Yiqing Wu, <b>Ruobing Xie</b>, Zhao Zhang, Xu Zhang, Fuzhen Zhuang, Leyu Lin, Zhanhui Kang and Yongjun Xu.<br>
-</li>
-<li>
-	PatchRec: Multi-Grained Patching for Efficient LLM-based Sequential Recommendation. <i>SIGIR'25</i>.<br>
-	Jiayi Liao, <b>Ruobing Xie&dagger;</b>, Sihang Li, Xiang Wang, Xingwu Sun, Zhanhui Kang and Xiangnan He&dagger;.<br>
-</li>
-<li>
-	PhD: A ChatGPT-Prompted Visual hallucination Evaluation Dataset. <i>CVPR'25</i>.<br>
-	Jiazhen Liu, Yuhan Fu, <b>Ruobing Xie</b>, Runquan Xie, Xingwu Sun, Fengzong Lian, Zhanhui Kang, Xirong Li.<br>
-</li>
-<li>
-	Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence. <i>ICLR'25</i>.<br>
-	Weize Chen, Ziming You, Ran Li, yitong guan, Chen Qian, Chenyang Zhao, Cheng Yang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.<br>
-	<i>Spotlight</i>. <br>
-</li>
-<li>
-	Advancing LLM Reasoning Generalists with Preference Trees. <i>ICLR'25</i>.<br>
-	Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Boji Shan, Zeyuan Liu, Jia Deng, Huimin Chen, <b>Ruobing Xie</b>, Yankai Lin, Zhenghao Liu, Bowen Zhou, Hao Peng, Zhiyuan Liu, Maosong Sun.<br>
-</li>
-<li>
-	QAVA: Query-Agnostic Visual Attack to Large Vision-Language Models. <i>NAACL'25</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Jiansheng Chen&dagger;, Xingwu Sun, Zhanhui Kang, Yu Wang&dagger;.<br>
-</li>
-<li>
-	Language Models ``Grok'' to Copy. <i>NAACL'25</i>.<br>
-	Ang Lv, <b>Ruobing Xie&dagger;</b>, Xingwu Sun, Zhanhui Kang, Rui Yan&dagger;.<br>
-</li>
-<li>
-	Continuous Speech Tokenizer in Text To Speech. <i>NAACL'25 findings</i>.<br>
-	Yixing Li, <b>Ruobing Xie</b>, Xingwu Sun, Yu Cheng, Zhanhui Kang.<br>
-</li>
-<li>
-	Enhancing Contrastive Learning Inspired by the Philosophy of "the Blind Men and the Elephant". <i>AAAI'25</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Jiansheng Chen&dagger;, Xingwu Sun, Zhanhui Kang, Yu Wang&dagger;. <br>
-</li>
-<li>
-	Curriculum Conditioned Diffusion for Multimodal Recommendation. <i>AAAI'25</i>.<br>
-	Yimeng Yang, Haokai Ma, Lei Meng, Shuo Xu, <b>Ruobing Xie</b>, Xiangxu Meng. <br>
-</li>
-<li>
-	A Pre-trained Plug-in Mixture-of-LoRAs Model for Transferable Sequential Recommendation. <i>ICASSP'25</i><br>
-	Wenqi Sun, <b>Ruobing Xie</b>, Junjie Zhang, Wayne Xin Zhao and Zhanhui Kang. <br>
-</li>
-<li>
-	Exploration and Exploitation of Hard Negative Samples for Cross-Domain Sequential Recommendation. <i>WSDM'25</i>.<br>
-	Yidan Wang, Xuri Ge, Xin Chen, <b>Ruobing Xie</b>, Su Yan, Xu Zhang, Zhumin Chen, Jun Ma, Xin Xin. <br>
-</li>
-    
-<h3><strong>2024</strong></h3>
+      <h3 class="year" id="LLM4Rec">LLM for Recommendation</h3>
+      <article class="paper"><h3>Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach</h3><p class="authors">Junjie Zhang, <b>Ruobing Xie</b>, Yupeng Hou, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.</p><p class="meta"><span class="venue">TOIS&#x27;26</span></p></article>
+      <article class="paper"><h3>Towards Empathetic Conversational Recommender Systems</h3><p class="authors">Xiaoyu Zhang, <b>Ruobing Xie</b>, Yougang Lyu, Xin Xin, Pengjie Ren, Mingfei Liang, Bo Zhang, Zhanhui Kang, Maarten de Rijke and Zhaochun Ren.</p><p class="meta"><span class="venue">RecSys&#x27;24</span><span class="badge">RecSys 2024 Best Full Paper</span></p></article>
+      <article class="paper"><h3>Personalized Prompts for Sequential Recommendation</h3><p class="authors">Yiqing Wu*, <b>Ruobing Xie*</b>, Yongchun Zhu, Fuzhen Zhuang, Xu Zhang, Leyu Lin, Qing He.</p><p class="meta"><span class="venue">TKDE&#x27;24</span></p></article>
+      <article class="paper"><h3>Large Language Models are Zero-Shot Rankers for Recommender Systems</h3><p class="authors">Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, <b>Ruobing Xie</b>, Julian McAuley, Wayne Xin Zhao.</p><p class="meta"><span class="venue">ECIR&#x27;24</span></p></article>
+      
 
-<li>
-	Thoroughly Modeling Multi-domain Pre-trained Recommendation as Language. <i>TOIS</i>.<br>
-	Zekai Qu*, <b>Ruobing Xie*&dagger;</b>, Chaojun Xiao, Yuan Yao, Zhiyuan Liu, Fengzong Lian, Jie Zhou, Zhanhui Kang.<br>
-</li>
-<li>
-	Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach. <i>TOIS</i>. [<A HREF="https://arxiv.org/abs/2305.07001" target=_blank>pdf</A>].<br>
-	Junjie Zhang, <b>Ruobing Xie</b>, Yupeng Hou, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.<br>
-</li>
-<li>
-	More Expressive Attention with Negative Weights. <i>arXiv:2411.07176</i>. [<A HREF="https://arxiv.org/abs/2411.07176" target=_blank>pdf</A>].<br>
-	Ang Lv, <b>Ruobing Xie&dagger;</b>, Shuaipeng Li, Jiayi Liao, Xingwu Sun, Zhanhui Kang, Di Wang, Rui Yan&dagger;.<br>
-</li>
-<li>
-	Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent. <i>arXiv:2411.02265</i>. [<A HREF="https://arxiv.org/abs/2411.02265" target=_blank>technical report</A>] [<A HREF="https://github.com/Tencent/Tencent-Hunyuan-Large" target=_blank>codes</A>] [<A HREF="https://huggingface.co/tencent/Tencent-Hunyuan-Large" target=_blank>models</A>].<br>
-	Xingwu Sun, Yanfeng Chen,  Huang, and <b>Ruobing Xie</b>, Jiaqi Zhu, Kai Zhang, Shuaipeng Li, Zhen Yang and others.<br>
-</li>
-<li>
-	Multimodal Clickbait Detection by De-confounding Biases Using Causal Representation Inference. <i>EMNLP'24</i>.<br>
-	Jianxing Yu, Shiqi Wang, Han Yin, Zhenlong Sun, <b>Ruobing Xie</b>, Bo Zhang, Yanghui Rao. <br>
-</li>
-<li>
-	Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment. <i>EMNLP'24</i>.<br>
-	Yiju Guo, Ganqu Cui, Lifan Yuan, Ning Ding, Zexu Sun, Bowen Sun, Huimin Chen, <b>Ruobing Xie</b>, Jie Zhou, Yankai Lin, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	Guess You Will Think So: Adversarial User Intention Learning in Sequential Recommendation. <i>EMNLP'24, findings</i>.<br>
-	Junjie Zhang, <b>Ruobing Xie</b>, Wenqi Sun, Leyu Lin, Xin Zhao, Ji-Rong Wen. <br>
-</li>
-<li>
-	Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication. <i>EMNLP'24, findings</i>.<br>
-	Weize Chen, Chenfei Yuan, Jiarui Yuan, Yusheng Su, Chen Qian, Cheng Yang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	A Method of Lifelong Sequential Recommendation Based on Matrix and Mixing Dual-Flow Long Short-Term Memory Networks. <i>CCIR'24</i>.<br>
-	Wenqi Sun, <b>Ruobing Xie</b>, Junjie Zhang, Wayne Xin Zhao, Zhanhui Kang and Ji-Rong Wen.<br>
-	<span style="color:red"><i><b>CCIR 2024 Best Paper Candidate!</b></i></span>
-</li>
-<li>
-	The Elephant in the Room: Rethinking the Usage of Pre-trained Language Model in Sequential Recommendation. <i>RecSys'24</i>.<br>
-	Zekai Qu*, <b>Ruobing Xie*&dagger;</b>, Chaojun Xiao, Xingwu Sun and Zhanhui Kang. <br>
-</li>
-<li>
-	Towards Empathetic Conversational Recommender Systems. <i>RecSys'24</i>.<br>
-	Xiaoyu Zhang, <b>Ruobing Xie</b>, Yougang Lyu, Xin Xin, Pengjie Ren, Mingfei Liang, Bo Zhang, Zhanhui Kang, Maarten de Rijke and Zhaochun Ren. <br>
-	<span style="color:red"><i><b>RecSys 2024 Best Full Paper!</b></i></span><br>
-</li>
-<li>
-	Content-Based Collaborative Generation for Recommender Systems. <i>CIKM'24</i>.<br>
-	Yidan Wang, Zhaochun Ren, Weiwei Sun, Jiyuan Yang, Zhixiang Liang, Xin Chen, <b>Ruobing Xie</b>, Su Yan, Xu Zhang, Pengjie Ren, Zhumin Chen and Xin Xin. <br>
-</li>
-<li>
-	PIP: Detecting Adversarial Examples in Large Vision-Language Models via Attention Patterns of Irrelevant Probe Questions. <i>MM'24</i>.<br>
-	Yudong Zhang, <b>Ruobing Xie&dagger;</b>, Jiansheng Chen&dagger;, Xingwu Sun, Yu Wang&dagger;. <br>
-</li>
-<li>
-	Dual-frequency Graph Neural Network for Sign-aware Recommendation. <i>KDD'24</i>.<br>
-	Yiqing Wu, <b>Ruobing Xie</b>, Zhao Zhang, Xu Zhang, Fuzhen Zhuang, Leyu Lin, Zhanhui Kang, Yongjun Xu. <br>
-</li>
-<li>
-	Improving Multi-modal Recommender Systems by Denoising and Aligning Multi-modal Content and User Feedback. <i>KDD'24</i>.<br>
-	Guipeng Xv, Xinyu Li, <b>Ruobing Xie</b>, Chen Lin, Chong Liu, Feng Xia, Zhanhui Kang, Leyu Lin. <br>
-</li>
-<li>
-	MAVEN-ARG: Completing the Puzzle of All-in-One Event Understanding Dataset with Event Argument Annotation. <i>ACL'24</i>.<br>
-	Xiaozhi Wang, Hao Peng, Yong Guan, Kaisheng Zeng, Jianhui Chen, Lei Hou, Xu Han, Yankai Lin, Zhiyuan Liu, <b>Ruobing Xie</b>, Jie Zhou, Juanzi Li. <br>
-</li>
-<li>
-	Hyperbolic Pre-Trained Language Model. <i>TASLP</i>.<br>
-	Weize Chen, Xu Han, Yankai Lin, kaichen he, Zhiyuan Liu, Maosong Sun, <b>Ruobing Xie</b> and Jie Zhou. <br>
-</li>
-<li>
-	CIPPO: Contrastive Imitation Proximal Policy Optimization for Recommendation. <i>TKDE</i>.<br>
-	Weilong Chen, Shaoliang Zhang, <b>Ruobing Xie</b>, Feng Xia, Leyu Lin, Yan Wang, Yanru Zhang. <br>
-</li>
-<li>
-	Exploring the Benefit of Activation Sparsity in Pre-training. <i>ICML'24</i>.<br>
-	Zhengyan Zhang, Chaojun Xiao, Qiujieli Qin, Yankai Lin, Zhiyuan Zeng, Xu Han, Zhiyuan Liu, <b>Ruobing Xie</b>, Maosong Sun, Jie Zhou. <br>
-</li>
-<li>
-	ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback. <i>ICML'24</i>.<br>
-	Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao, Bingxiang He, Wei Zhu, Yuan Ni, Guotong Xie, <b>Ruobing Xie</b>, Yankai Lin, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	SeeDRec: Sememe-based Diffusion for Sequential Recommendation. <i>IJCAI'24</i>.<br>
-	Haokai Ma, <b>Ruobing Xie&dagger;</b>, Lei Meng&dagger;, Yimeng Yang, Xingwu Sun and Zhanhui Kang. <br>
-</li>
-<li>
-	Style Controlling in Recommendation. <i>DASFAA'24</i>.<br>
-	<b>Ruobing Xie*&dagger;</b>, Xin Chen*, Su Yan, Jinghan Chen, Xu Zhang, Xingwu Sun, Leyu Lin and Zhanhui Kang. <br>
-</li>
-<li>
-	Multimodal Conditioned Diffusion Model for Recommendation. <i>WWW'24, workshop</i>.<br>
-	Haokai Ma*, Yimeng Yang*, Lei Meng, <b>Ruobing Xie</b> and Xiangxu Meng. <br>
-</li>
-<li>
-	LightVLP: A Lightweight Vision-Language Pre-training via Gated Interactive Masked AutoEncoders. <i>COLING'24</i>.<br>
-	Xingwu Sun, Zhen Yang, <b>Ruobing Xie&dagger;</b>, Fengzong Lian, Zhanhui Kang and Chengzhong Xu. <br>
-</li>
-<li>
-	A Survey on Causal Inference for Recommendation. <i>The innovation</i>.<br>
-	Huishi Luo, Fuzhen Zhuang, <b>Ruobing Xie</b>, Hengshu Zhu, Deqing Wang, Zhulin An, Yongjun Xu. <br>
-</li>
-<li>
-	Group-to-group Recommendation with Neural Graph Matching. <i>World Wide Web Journal</i>.<br>
-	Chunchen Wang, Wei Wang, Cheng Yang, Chuan Shi, <b>Ruobing Xie</b>, Yuanfu Lu, Haili Yang, Xu Zhang. <br>
-</li>
-<li>
-	AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems. <i>WWW'24</i>. [<A HREF="https://arxiv.org/abs/2310.09233" target=_blank>pdf</A>]. <br>
-	Junjie Zhang, Yupeng Hou, <b>Ruobing Xie</b>, Wenqi Sun, Julian McAuley, Xin Zhao, Leyu Lin, Ji-Rong Wen. <br>
-</li>
-<li>
-	ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs. <i>ICLR'24</i>. [<A HREF="https://arxiv.org/abs/2307.16789" target=_blank>pdf</A>].<br>
-	Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, <b>Ruobing Xie</b>, Jie Zhou, Mark Gerstein, dahai li, Zhiyuan Liu, Maosong Sun. <br>
-	<i>Spotlight</i>. <br>
-</li>
-<li>
-	AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents. <i>ICLR'24</i>. [<A HREF="https://arxiv.org/abs/2308.10848" target=_blank>pdf</A>].<br>
-	Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou. <br>
-</li>
-<li>
-	Personalized Prompts for Sequential Recommendation. <i>TKDE</i>.<br>
-	Yiqing Wu*, <b>Ruobing Xie*</b>, Yongchun Zhu, Fuzhen Zhuang, Xu Zhang, Leyu Lin, Qing He. <br>
-</li>
-<li>
-	Large Language Models are Zero-Shot Rankers for Recommender Systems. <i>ECIR'24</i>. [<A HREF="https://arxiv.org/abs/2305.08845" target=_blank>pdf</A>].<br>
-	Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, <b>Ruobing Xie</b>, Julian McAuley, Wayne Xin Zhao. <br>
-</li>
-<li>
-	Plug-in Diffusion Model for Sequential Recommendation. <i>AAAI'24</i>.<br>
-	Haokai Ma*, <b>Ruobing Xie*</b>, Lei Meng, Xin Chen, Xu Zhang, Leyu Lin and Zhanhui Kang. <br>
-</li>
-    
-<h3><strong>2023</strong></h3>
+      <h3 class="year" id="survey">Tech Report and Survey</h3>
+      <article class="paper"><h3>A Survey of Linear Attention: Algorithm, Theory, Application, and Infrastructure</h3><p class="authors">Yudong Zhang, Weixuan Sun, Wei Ding, Xingwu Sun, Ruiqi Xie, Hongyi Wang, Junjie Chen, Jiacheng Liu, Shaobo Wang, Yuwei Zhang, Yiqing Huang, Jiaming Wang, Tianchen Zhao, Weidong Han, Yanfeng Chen, Kai Zhang, Shuaipeng Li, <b>Ruobing Xie&dagger;</b>, Di Wang, Jiansheng Chen, Linfeng Zhang&dagger;, Chengzhong Xu, Yu Wang&dagger;</p><p class="meta"><span class="venue">TMLR&#x27;26</span></p></article>
+      <article class="paper"><h3>Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought</h3><p class="authors">Tencent Hunyuan Team.</p><p class="meta"><span class="venue">Tech report</span><a class="res" href="https://arxiv.org/abs/2505.15431" target="_blank" rel="noopener noreferrer">Technical report</a></p></article>
+      <article class="paper"><h3>Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent</h3><p class="authors">Xingwu Sun, Yanfeng Chen, Huang, and <b>Ruobing Xie</b>, Jiaqi Zhu, Kai Zhang, Shuaipeng Li, Zhen Yang and others.</p><p class="meta"><span class="venue">Tech report</span><a class="res" href="https://arxiv.org/abs/2411.02265" target="_blank" rel="noopener noreferrer">Technical report</a><a class="res" href="https://huggingface.co/tencent/Tencent-Hunyuan-Large" target="_blank" rel="noopener noreferrer">Models</a></p></article>
+      <article class="paper"><h3>A Survey on Causal Inference for Recommendation</h3><p class="authors">Huishi Luo, Fuzhen Zhuang, <b>Ruobing Xie</b>, Hengshu Zhu, Deqing Wang, Zhulin An, Yongjun Xu.</p><p class="meta"><span class="venue">The innovation</span></p></article>
 
-<li>
-	FairGap: Fairness-aware Recommendation via Generating Counterfactual Graph. <i>TOIS</i>.<br>
-	Wei Chen, Yiqing Wu, Zhao Zhang, Fuzhen Zhuang, Zhongshi He, <b>Ruobing Xie</b> and Feng Xia. <br>
-</li>
-<li>
-	Triple Sequence Learning for Cross-domain Recommendation. <i>TOIS</i>.<br>
-	Haokai Ma*, <b>Ruobing Xie*</b>, Lei Meng, Xin Chen, Xu Zhang, Leyu Lin and Jie Zhou. <br>
-</li>
-<li>
-	Boosting Inference Efficiency: Unleashing the Power of Parameter-Shared Pre-trained Language Models. <i>EMNLP'23, findings</i>.<br>
-	Weize Chen, Xiaoyue Xu, Xu Han, Yankai Lin, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou. <br>
-</li>
-<li>
-	Variator: Accelerating Pre-trained Models with Plug-and-Play Compression Modules. <i>EMNLP'23, findings</i>.<br>
-	Chaojun Xiao, Yuqi Luo, Wenbin Zhang, Pengle Zhang, Xu Han, Yankai Lin, Zhengyan Zhang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou. <br>
-</li>
-<li>
-	UPRec: User-Aware Pre-Training for Sequential Recommendation. <i>AI Open</i>. [<A HREF="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4538588" target=_blank>pdf</A>].<br>
-	Chaojun Xiao, <b>Ruobing Xie</b>, Yuan Yao, Zhiyuan Liu, Maosong Sun, Xu Zhang, Leyu Lin. <br>
-</li>
-<li>
-	Generative Next-Basket Recommendation. <i>RecSys'23</i>.<br>
-	Wenqi Sun, <b>Ruobing Xie</b>, Junjie Zhang, Wayne Xin Zhao, Leyu Lin and Ji-Rong Wen. <br>
-</li>
-<li>
-	Interpretable User Retention Modeling in Recommendation. <i>RecSys'23</i>.<br>
-	Rui Ding, <b>Ruobing Xie&dagger;</b>, Xiaobo Hao, Xiaochun Yang&dagger;, Kaikai Ge, Xu Zhang, Jie Zhou and Leyu Lin.<br>
-	<span style="color:red"><i><b>RecSys 2023 Best Short Paper</b>!</i></span><br>
-</li>
-<li>
-	Exploring False Hard Negative Sample in Cross-Domain Recommendation. <i>RecSys'23</i>.<br>
-	Haokai Ma, <b>Ruobing Xie</b>, Lei Meng, Xin Chen, Xu Zhang, Leyu Lin and Jie Zhou. <br>
-</li>
-<li>
-	Future Augmentation with Self-Distillation in Recommendation. <i>ECML-PKDD'23</i>.<br>
-	Chong Liu*, <b>Ruobing Xie*</b>, Xiaoyang Liu, Pinzheng Wang, Rongqin Zheng, Lixin Zhang, Juntao Li, Feng Xia, Leyu Lin. <br>
-</li>
-<li>
-	Pruning Pre-trained Language Models Without Fine-Tuning. <i>ACL'23</i>.<br>
-	Ting Jiang, deqing wang, Fuzhen Zhuang, <b>Ruobing Xie</b>, Feng Xia. <br>
-</li>
-<li>
-	Interactive Web Search for Chinese Long-form Question Answering. <i>ACL'23</i>.<br>
-	Yujia Qin, Zihan Cai, Dian Jin, Lan Yan, Shihao Liang, Kunlun Zhu, Yankai Lin, Xu Han, Ning Ding, Huadong Wang, <b>Ruobing Xie</b>, Fanchao Qi, Zhiyuan Liu, Maosong Sun and Jie Zhou. <br>
-</li>
-<li>
-	Recyclable Tuning for Continual Pre-training. <i>ACL'23, findings</i>.<br>
-	Yujia Qin, Cheng Qian, Xu Han, Yankai Lin, Huadong Wang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun and Jie Zhou. <br>
-</li>
-<li>
-	Emergent Modularity in Pre-trained Transformers. <i>ACL'23, findings</i>.<br>
-	Zhengyan Zhang, Zhiyuan Zeng, Yankai Lin, Chaojun Xiao, Xiaozhi Wang, Xu Han, Zhiyuan Liu, <b>Ruobing Xie</b>, Maosong Sun and Jie Zhou. <br>
-</li>
-<li>
-	Negative Can Be Positive: Signed Graph Neural Networks for Recommendation. <i>Information Processing and Management.</i><br>
-	Junjie Huang, <b>Ruobing Xie</b>, Qi Cao, Shaoliang Zhang, Feng Xia, Huawei Shen and Xueqi Cheng. <br>
-</li>
-<li>
-	Attacking Pre-trained Recommendation. <i>SIGIR'23</i>.<br>
-	Yiqing Wu*, <b>Ruobing Xie*</b>, Zhao Zhang, Yongchun Zhu, Fuzhen Zhuang, Jie Zhou, Yongjun Xu and Qing He. <br>
-</li>
-<li>
-	Cross-domain Recommendation with Behavioral Importance Perception. <i>WWW'23</i>. [<A HREF="publications/WWW-2023_cross.pdf" target=_blank>pdf</A>].<br>
-	Hong Chen, Xin Wang, <b>Ruobing Xie</b>, Yuwei Zhou and Wenwu Zhu.<br>
-	<span style="color:red"><i><b>Paper Award Nominations of TheWebConf 2023 (spotlight)!</b></i></span><br>
-</li>
-<li>
-	Reweighting Clicks with dwell time in Recommendation. <i>WWW'23, industry track</i>. [<A HREF="https://arxiv.org/abs/2209.09000" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie*</b>, Lin Ma*, Shaoliang Zhang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	Better Pre-Training by Reducing Representation Confusion. <i>EACL'23, findings</i>. [<A HREF="publications/EACL-2023_Better.pdf" target=_blank>pdf</A>].<br>
-	Haojie Zhang*, Mingfei Liang*, <b>Ruobing Xie*</b>, Zhenlong Sun, Bo Zhang, Leyu Lin. <br>
-</li>
-<li>
-	Multi-granularity Item-based Contrastive Recommendation. <i>DASFAA'23</i>. [<A HREF="https://arxiv.org/abs/2207.01387" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie*</b>, Zhijie Qiu*, Bo Zhang and Leyu Lin. <br>
-</li>
-<li>
-	Adversarial Learning Data Augmentation for Graph Contrastive Learning in Recommendation. <i>DASFAA'23</i>. [<A HREF="https://arxiv.org/abs/2302.02317" target=_blank>pdf</A>].<br>
-	Junjie Huang, Qi Cao, <b>Ruobing Xie</b>, Shaoliang Zhang, Feng Xia, Huawei Shen and Xueqi Cheng. <br>
-</li>
-<li>
-	Visually Grounded Commonsense Knowledge Acquisition. <i>AAAI'23</i>. [<A HREF="https://arxiv.org/abs/2211.12054" target=_blank>pdf</A>].<br>
-	Yuan Yao, Tianyu Yu, Ao Zhang, Mengdi Li, <b>Ruobing Xie</b>, Cornelius Weber, Zhiyuan Liu, Hai-Tao Zheng, Stefan Wermter, Tat-Seng Chua, Maosong Sun. <br>
-</li>
-    
-<h3><strong>2022</strong></h3>
 
-<li>
-	Self-Supervised Learning for Conversational Recommendation with Knowledge Fusion. <i>Information Processing and Management</i>. [<A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0306457322001698" target=_blank>pdf</A>].<br>
-	Shuokai Li, <b>Ruobing Xie</b>, Yongchun Zhu, Fuzhen Zhuang, Zhenwei Tang, Wayne Xin Zhao and Qing He. <br>
-</li>
-<li>
-	Multi-granularity Fatigue in Recommendation. <i>CIKM'22</i>. [<A HREF="publications/CIKM-2022_fatigue.pdf" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie*</b>, Cheng Ling*, Shaoliang Zhang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	MIC:Model-agnostic Integrated Cross-channel Recommender. <i>CIKM'22</i>. [<A HREF="publications/CIKM-2022_MIC.pdf" target=_blank>pdf</A>].<br>
-	Ping Nie, Yujie Lu, Shengyu Zhang, Ming Zhao, <b>Ruobing Xie&dagger;</b>, William Yang Wang&dagger; and Yi Ren. <br>
-</li>
-<li>
-	Group-based Social Diffusion in Recommendation. <i>World Wide Web Journal</i>. [<A HREF="https://link.springer.com/article/10.1007/s11280-022-01079-2" target=_blank>pdf</A>].<br>
-	Xumin Chen, <b>Ruobing Xie</b>, Zhijie Qiu, Peng Cui, Ziwei Zhang, Shukai Liu, Shiqiang Yang, Bo Zhang and Leyu Lin. <br>
-</li>
-<li>
-	Customized Conversational Recommender Systems. <i>ECML-PKDD'22</i>. [<A HREF="https://arxiv.org/abs/2207.00814" target=_blank>pdf</A>].<br>
-	Shuokai Li, Yongchun Zhu, <b>Ruobing Xie</b>, Zhenwei Tang, Zhao Zhang, Fuzhen Zhuang, Qing He and Hui Xiong. <br>
-</li>
-<li>
-	Contrastive Cross-domain Recommendation in Matching. <i>KDD'22</i>. [<A HREF="publications/KDD-2022_CCDR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/lqfarmer/CCDR" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Qi Liu*, Liangdong Wang, Shukai Liu, Bo Zhang and Leyu Lin. <br>
-</li>
-<li>
-	Selective Fairness in Recommendation via Prompts. <i>SIGIR'22</i>. [<A HREF="publications/SIGIR-2022_PFRec.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/wyqing20/PFRec" target=_blank>codes</A>].<br>
-	Yiqing Wu*, <b>Ruobing Xie*</b>, Yongchun Zhu, Fuzhen Zhuang, Xiang Ao, Xu Zhang, Leyu Lin and Qing He. <br>
-</li>
-<li>
-	User-Centric Conversational Recommendation with Multi-Aspect User Modeling. <i>SIGIR'22</i>. [<A HREF="publications/SIGIR-2022_UCCR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/lisk123/UCCR" target=_blank>codes</A>].<br>
-	Shuokai Li*, <b>Ruobing Xie*</b>, Yongchun Zhu, Xiang Ao, Fuzhen Zhuang and Qing He. <br>
-</li>
-<li>
-	Prompt Tuning for Discriminative Pre-trained Language Models. <i>ACL'22, findings</i>. [<A HREF="publications/ACL-22_prompt.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/DPT" target=_blank>codes</A>].<br>
-	Yuan Yao, Bowen Dong, Ao Zhang, Zhengyan Zhang, <b>Ruobing Xie</b>, Zhiyuan Liu, Leyu Lin, Maosong Sun. <br>
-</li>
-<li>
-	Multi-view Multi-behavior Contrastive Learning in Recommendation. <i>DASFAA'22</i>. [<A HREF="publications/DASFAA-2022_MMCLR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/wyqing20/MMCLR" target=_blank>codes</A>].<br>
-	Yiqing Wu*, <b>Ruobing Xie*</b>, Yongchun Zhu, Xiang Ao, Xin Chen, Xu Zhang, Fuzhen Zhuang, Leyu Lin, Qing He. <br>
-</li>
-<li>
-	Connecting Embeddings Based on Multiplex Relational Graph Attention Networks for Knowledge Graph Entity Typing. <i>TKDE</i>. [<A HREF="https://ieeexplore.ieee.org/abstract/document/9677939" target=_blank>pdf</A>] [<A HREF="https://github.com/Adam1679/ConnectE" target=_blank>codes</A>].<br>
-	Yu Zhao, Han Zhou, Anxiang Zhang, <b>Ruobing Xie</b>, Qing Li, Fuzhen Zhuang. <br>
-</li>
-<li>
-	A Peep into the Future: Adversarial Future Encoding in Recommendation. <i>WSDM'22</i>. [<A HREF="publications/WSDM-2022_AFE.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/modriczhang/AFE" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Shaoliang Zhang*, Rui Wang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	Long Short-Term Temporal Meta-learning in Online Recommendation. <i>WSDM'22</i>. [<A HREF="publications/WSDM-2022_LSTTM.pdf" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie*</b>, Yalong Wang*, Rui Wang, Yuanfu Lu, Yuanhang Zou, Feng Xia, Leyu Lin. <br>
-</li>
-<li>
-	Personalized Transfer of User Preferences for Cross-domain Recommendation. <i>WSDM'22</i>. [<A HREF="publications/WSDM-2022_PTUPCDR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/easezyc/WSDM2022-PTUPCDR" target=_blank>codes</A>].<br>
-	Yongchun Zhu, Zhenwei Tang, Yudan Liu, Fuzhen Zhuang, <b>Ruobing Xie</b>, Xu Zhang, Leyu Lin and Qing He. <br>
-</li>
+      <h3 class="year" id="Recommendation">Recommendation</h3>
+      <article class="paper"><h3>Plug-in Diffusion Model for Sequential Recommendation</h3><p class="authors">Haokai Ma*, <b>Ruobing Xie*</b>, Lei Meng, Xin Chen, Xu Zhang, Leyu Lin and Zhanhui Kang.</p><p class="meta"><span class="venue">AAAI&#x27;24</span></p></article>
+      <article class="paper"><h3>Interpretable User Retention Modeling in Recommendation</h3><p class="authors">Rui Ding, <b>Ruobing Xie&dagger;</b>, Xiaobo Hao, Xiaochun Yang&dagger;, Kaikai Ge, Xu Zhang, Jie Zhou and Leyu Lin.</p><p class="meta"><span class="venue">RecSys&#x27;23</span><span class="badge">RecSys 2023 Best Short Paper</span></p></article>
+      <article class="paper"><h3>Cross-domain Recommendation with Behavioral Importance Perception</h3><p class="authors">Hong Chen, Xin Wang, <b>Ruobing Xie</b>, Yuwei Zhou and Wenwu Zhu.</p><p class="meta"><span class="venue">WWW&#x27;23</span><span class="badge">Paper Award Nominations of TheWebConf 2023 (spotlight)</span></p></article>
+      <article class="paper"><h3>Contrastive Cross-domain Recommendation in Matching</h3><p class="authors"><b>Ruobing Xie*</b>, Qi Liu*, Liangdong Wang, Shukai Liu, Bo Zhang and Leyu Lin.</p><p class="meta"><span class="venue">KDD&#x27;22</span></p></article>
+      <article class="paper"><h3>Deep Feedback Network for Recommendation</h3><p class="authors"><b>Ruobing Xie*</b>, Cheng Ling*, Yalong Wang, Rui Wang, Feng Xia, Leyu Lin.</p><p class="meta"><span class="venue">IJCAI&#x27;20</span></p></article>
+     
 
-<h3><strong>2021</strong></h3>
+      <h3 class="year" id="LLM4Rec">Knowledge Graph</h3>
+      <article class="paper"><h3>Does William Shakespeare REALLY Write Hamlet? Knowledge Representation Learning with Confidence</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Fen Lin, Leyu Lin.</p><p class="meta"><span class="venue">AAAI&#x27;18</span></p></article>
+      <article class="paper"><h3>Image-embodied Knowledge Representation Learning</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
+      <article class="paper"><h3>Iterative Entity Alignment via Joint Knowledge Embeddings</h3><p class="authors">Hao Zhu*, <b>Ruobing Xie*</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
+      <article class="paper"><h3>Representation Learning of Knowledge Graphs with Hierarchical Types</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;16</span></p></article>
+      <article class="paper"><h3>Representation Learning of Knowledge Graphs with Entity Descriptions</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Jia Jia, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">AAAI&#x27;16</span></p></article>
 
-<li>
-	Curriculum Disentangled Recommendation with Noisy Multi-feedback. <i>NeurIPS'21</i>. [<A HREF="publications/NeurIPS-2021_CDR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/forchchch/CDR" target=_blank>codes</A>].<br>
-	Hong Chen*, Yudong Chen*, Xin Wang, <b>Ruobing Xie</b>, Rui Wang, Feng Xia, Wenwu Zhu. <br>
-</li>
-<li>
-	Explore, Filter and Distill: Distilled Reinforcement Learning in Recommendation. <i>CIKM'21</i>. [<A HREF="publications/CIKM-2021_DRL-Rec.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/modriczhang/DRL-Rec" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Shaoliang Zhang*, Rui Wang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	USER: A Unified Search and Recommendation Model based on Integrated Behavior Sequence. <i>CIKM'21</i>. [<A HREF="publications/CIKM-2021_USER.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/jingjyyao/Personalized-Search/tree/main/USER" target=_blank>codes</A>].<br>
-	Jing Yao, Zhicheng Dou, <b>Ruobing Xie</b>, Yanxiong Lu, Zhiping Wang and Ji-Rong Wen. <br>
-</li>
-<li>
-	Improving Accuracy and Diversity in Recommendation with Heterogeneous Graph Neural Networks. <i>IEEE Transactions on Big Data</i>. [<A HREF="https://arxiv.org/abs/2102.03787" target=_blank>pdf</A>] [<A HREF="https://github.com/lqfarmer/GraphDR" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Qi Liu*, Shukai Liu, Ziwei Zhang, Peng Cui, Bo Zhang and Leyu Lin. <br>
-</li>
-<li>
-	MMNet: Multi-Granularity Multi-Mode Network for Item-Level Share Rate Prediction. <i>ECML-PKDD'21</i>. [<A HREF="publications/ECML-PKDD-2021_MMNet.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/MingFL/MMNET" target=_blank>codes</A>].<br>
-	Haomin Yu*, Mingfei Liang*, <b>Ruobing Xie*</b>, Zhenlong Sun, Bo Zhang and Leyu Lin. <br>
-</li>
-<li>
-	Adversarial Feature Translation for Multi-domain Recommendation. <i>KDD'21</i>. [<A HREF="publications/KDD-2021_AFT.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/xiaobocser/AFT" target=_blank>codes</A>].<br>
-	Xiaobo Hao*, Yudan Liu*, <b>Ruobing Xie*</b>, Kaikai Ge, Linyao Tang, Xu Zhang and Leyu Lin. <br>
-</li>
-<li>
-	Learn to Expand Audience via Meta Hybrid Experts and Critics. <i>KDD'21</i>. [<A HREF="publications/KDD-2021_MetaHeac.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/easezyc/MetaHeac" target=_blank>codes</A>].<br>
-	Yongchun Zhu, Yudan Liu, <b>Ruobing Xie</b>, Fuzhen Zhuang, Xiaobo Hao, Kaikai Ge, Xu Zhang, Leyu Lin, Juan Cao. <br>
-</li>
-<li>
-	Incorporating Global Information in Local Attention for Knowledge Representation Learning. <i>ACL'21, findings</i>. [<A HREF="publications/ACL-2021_EIGAT.pdf" target=_blank>pdf</A>].<br>
-	Yu Zhao, Han Zhou, <b>Ruobing Xie</b>, Fuzhen Zhuang, Qing Li and Ji Liu. <br>
-</li>
-<li>
-	Learning to Warm Up Cold Item Embeddings for Cold-start Recommendation with Meta Scaling and Shifting Networks. <i>SIGIR'21</i>. [<A HREF="publications/SIGIR-21_MWUF.pdf" target=_blank>pdf</A>].<br>
-	Yongchun Zhu, <b>Ruobing Xie</b>, Fuzhen Zhuang, Kaikai Ge, Ying Sun, Xu Zhang, Leyu Lin and Juan Cao. <br>
-</li>
-<li>
-	Group based Personalized Search by Integrating Search Behaviour and Friend Network. <i>SIGIR'21</i>. [<A HREF="publications/SIGIR-21_FNPS.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/smallporridge/FNPS" target=_blank>codes</A>].<br>
-	Yujia Zhou, Zhicheng Dou, Bingzheng Wei, <b>Ruobing Xie</b>, Ji-Rong Wen. <br>
-</li>
-<li>
-	Package Recommendation with Intra- and Inter-Package Attentive Networks. <i>SIGIR'21</i>. [<A HREF="publications/SIGIR-21_IPRec.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/LeeChenChen/IPRec" target=_blank>codes</A>].<br>
-	Chen Li, Wei Wang, Yuanfu Lu, Chuan Shi, <b>Ruobing Xie</b>, Haili Yang, Cheng Yang, Xu Zhang, Leyu Lin. <br>
-</li>
-<li>
-	Transfer-Meta Framework for Cross-domain Recommendation to Cold-Start Users. <i>SIGIR'21</i>. [<A HREF="publications/SIGIR-21_TMCDR.pdf" target=_blank>pdf</A>].<br>
-	Yongchun Zhu, Kaikai Ge, Fuzhen Zhuang, <b>Ruobing Xie</b>, Dongbo Xi, Xu Zhang, Leyu Lin, Qing He. <br>
-</li>
-<li>
-	Open Hierarchical Relation Extraction. <i>NAACL'21</i>. [<A HREF="publications/NAACL-21_OHRE.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/OHRE" target=_blank>codes</A>].<br>
-	Kai Zhang, Yuan Yao, <b>Ruobing Xie</b>, Xu Han, Zhiyuan Liu, Fen Lin, Leyu Lin and Maosong Sun. <br>
-</li>
-<li>
-	Understanding WeChat User Preferences and “Wow” Diffusion. <i>TKDE</i>. [<A HREF="publications/TKDE-21_WTS.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/zfjsail/wechat-wow-analysis" target=_blank>codes</A>]<br>
-	Fanjin Zhang, Jie Tang, Xueyi Liu, Zhenyu Hou, Yuxiao Dong, Jing Zhang, Xiao Liu, <b>Ruobing Xie</b>, Kai Zhuang, Xu Zhang, Leyu Lin, Philip Yu. <br>
-</li>
-<li>
-	Personalized Approximate Pareto-Efficient Recommendation. <i>WWW'21</i>. [<A HREF="publications/WWW-21_PAPERec.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/onepunch-cyber/PAPERec" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Yanlei Liu*, Shaoliang Zhang, Rui Wang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	Knowledge Transfer via Pre-training for Recommendation: A Review and Prospect. <i>Frontiers in Big Data</i>. [<A HREF="publications/Frontier-21_knowledge.pdf" target=_blank>pdf</A>].<br>
-	Zheni Zeng*, Chaojun Xiao*, Yuan Yao, <b>Ruobing Xie*</b>, Zhiyuan Liu, Fen Lin, Leyu Lin, Maosong Sun. <br>
-</li>
-<li>
-	Learning Entity Type Structured Embeddings with Trustworthiness on Noisy Knowledge Graphs. <i>Knowledge-Based Systems</i>. [<A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0950705120307590" target=_blank>link</A>] [<A HREF="https://github.com/Quan-SWUFE/TrustE" target=_blank>codes</A>].<br>
-	Yu Zhao, Zhiquan Li, Wei Deng, <b>Ruobing Xie</b>, Qing Li. <br>
-</li>
-<li>
-	Hierarchical Reinforcement Learning for Integrated Recommendation. <i>AAAI'21</i>. [<A HREF="publications/AAAI-21_HRL-Rec.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/modriczhang/HRL-Rec" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Shaoliang Zhang*, Rui Wang, Feng Xia and Leyu Lin. <br>
-</li>
-<li>
-	Real-time Relevant Recommendation Suggestion. <i>WSDM'21</i>. [<A HREF="publications/WSDM-21_R3S.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/modriczhang/R3S" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Rui Wang*, Shaoliang Zhang, Zhihong Yang, Feng Xia and Leyu Lin. <br>
-</li>
 
-<h3><strong>2020</strong></h3>
+    </section>
 
-<li>
-	Meta-Information Guided Meta-Learning for Few-Shot Relation Classification. <i>COLING'20</i>. [<A HREF="publications/COLING-20_meta-information.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/MIML" target=_blank>codes</A>].<br>
-	Bowen Dong, Yuan Yao, <b>Ruobing Xie</b>, Tianyu Gao, Xu Han, Zhiyuan Liu, Fen Lin, Leyu Lin and Maosong Sun. <br>
-</li>
-<li>
-	Denoising Relation Extraction from Document-level Distant Supervision. <i>EMNLP'20</i>. [<A HREF="publications/EMNLP-20_denoising.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/DSDocRE" target=_blank>codes</A>].<br>
-	Chaojun Xiao, Yuan Yao, <b>Ruobing Xie</b>, Xu Han, Zhiyuan Liu, Maosong Sun, Fen Lin and Leyu Lin. <br>
-</li>
-<li>
-	Graph Neural Network for Tag Ranking in Tag-enhanced Video Recommendation. <i>CIKM'20</i>. [<A HREF="publications/CIKM-20_GraphTR.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/lqfarmer/GraphTR" target=_blank>codes</A>] [<A HREF="https://dl.acm.org/doi/abs/10.1145/3340531.3416021" target=_blank>talk</A>].<br>
-	Qi Liu*, <b>Ruobing Xie*</b>, Lei Chen, Shukai Liu, Ke Tu, Peng Cui, Bo Zhang, Leyu Lin. <br>
-</li>
-<li>
-	FAQ-based Question Answering via Knowledge Anchors. <i>NLPCC'20</i>. [<A HREF="publications/NLPCC-20_FAQ.pdf" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie</b>, Yanan Lu, Fen Lin Leyu Lin. <br>
-</li>
-<li>
-	Curriculum Learning for Wide Multimedia-Based Transformer with Graph Target Detection. <i>MM'20. ACM MM Grand Challenges</i>. [<A HREF="publications/MM-20_curriculum.pdf" target=_blank>pdf</A>].<br>
-	Weilong Chen, Feng Hong, Chenghao Huang, Shaoliang Zhang, Rui Wang, <b>Ruobing Xie</b>, Feng Xia, Leyu Lin, Yanru Zhang, Yan Wang. <br>
-</li>
-<li>
-	Sememe Knowledge Computation: A Review of Recent Advances in Application and Expansion of Sememe Knowledge Bases. <i>Frontiers of Computer Science</i>. [<A HREF="https://link.springer.com/article/10.1007/s11704-020-0002-4" target=_blank>pdf</A>].<br>
-	Fanchao Qi, <b>Ruobing Xie</b>, Yuan Zang, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	Social Influence Attentive Neural Network for Friend-enhanced Recommendation. <i>ECML-PKDD'20</i>. [<A HREF="publications/ECML-PKDD-20_SIAN.pdf" target=_blank>pdf</A>] [<A HREF=" https://github.com/rootlu/SIAN" target=_blank>codes</A>].<br>
-	Yuanfu Lu, <b>Ruobing Xie</b>, Chuan Shi, Yuan Fang, Wei Wang, Xu Zhang, Leyu Lin. <br>
-</li>
-<li>
-	Internal and Contextual Attention Network for Cold-start Multi-channel Matching in Recommendation. <i>IJCAI'20</i>. [<A HREF="publications/IJCAI-20_ican.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/zhijieqiu/ICAN" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Zhijie Qiu*, Jun Rao, Yi Liu, Bo Zhang, Leyu Lin. <br>
-</li>
-<li>
-	Deep Feedback Network for Recommendation. <i>IJCAI'20</i>. [<A HREF="publications/IJCAI-20_feedback.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/qqxiaochongqq/DFN" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Cheng Ling*, Yalong Wang, Rui Wang, Feng Xia, Leyu Lin. <br>
-</li>
-<li>
-	Connecting Embeddings for Knowledge Graph Entity Typing. <i>ACL'20</i>. [<A HREF="publications/ACL-20_connecting.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/Adam1679/ConnectE" target=_blank>codes</A>].<br>
-	Yu Zhao, Anxiang Zhang, <b>Ruobing Xie</b>, Kang Liu and Xiaojie Wang. <br>
-</li>
-<li>
-	Neural Snowball for Few-Shot Relation Learning. <i>AAAI'20</i>. [<A HREF="publications/AAAI-20_snowball.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/Neural-Snowball" target=_blank>codes</A>].<br>
-	Tianyu Gao, Xu Han, <b>Ruobing Xie</b>, Zhiyuan Liu, Fen Lin, Leyu Lin, Maosong Sun. <br>
-</li>
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <ul class="dated">
+        <li><time>Jul. 2017 - present.</time><span>Senior Researcher, Tencent, Beijing.</span></li>
+        <li><time>Sep. 2014 - Jul. 2017.</time><span>M.S. candidate, Dept. of Computer Science and Technology, Tsinghua University, Beijing, China.</span></li>
+        <li><time>Sep. 2010 - Jul. 2014.</time><span>B.S., Dept. of Computer Science and Technology, Tsinghua University, Beijing, China.</span></li>
+      </ul>
+    </section>
 
-<h3><strong>2019</strong></h3>
+    <section class="section" id="awards">
+      <h2>Awards</h2>
+      <ul class="dated">
+        <li><time>2024-2026.</time><span>World's Top 2 % Scientists.</span></li>
+        <li><time>2025.</time><span>EMNLP 2025 SAC highlight.</span></li>
+        <li><time>2024.</time><span>RecSys 2024 Best Full Paper Award.</span></li>
+        <li><time>2024.</time><span>CCIR 2024 Best Paper Candidate.</span></li>
+        <li><time>2023.</time><span>RecSys 2023 Best Short Paper Award.</span></li>
+        <li><time>2023.</time><span>Paper Award Nominations of TheWebConf 2023 (spotlight).</span></li>
+        <li><time>2020.</time><span>The first prize of the Natural Science Award (Science and Technology) of the Ministry of Education.</span></li>
+        <li><time>2016.</time><span>Siebel Scholars. <a class="res" href="http://www.siebelscholars.com" target="_blank" rel="noopener noreferrer">Link</a></span></li>
+      </ul>
+    </section>
 
-<li>
-	Open Relation Extraction: Relational Knowledge Transfer from Supervised Data to Unsupervised Data. <i>EMNLP'19</i>. [<A HREF="publications/EMNLP-19_rsn.pdf" target=_blank>pdf</A>] [<A HREF="https://github.com/thunlp/RSN" target=_blank>codes</A>].<br>
-	Ruidong Wu, Yuan Yao, Xu Han, <b>Ruobing Xie</b>, Zhiyuan Liu, Fen Lin, Leyu Lin and Maosong Sun. <br>
-</li>
-<li>
-	Integrating Image-based and Knowledge-based Representation Learning. <i>ICDS'19</i>. [<A HREF="publications/TCDS-19_image.pdf" target=_blank>pdf</A>].<br>
-	<b>Ruobing Xie</b>, Stefan Heinrich, Zhiyuan Liu, Cornelius Weber, Yuan Yao, Stefan Wermter, Maosong Sun. <br>
-</li>
+    <section class="section" id="services">
+      <h2>Academic Service</h2>
+      <ul class="clean">
+        <li>Scholar of Young Talent Promoting Project of CAST.</li>
+        <li>Member of Chinese Information Processing Society of China (CIPS), Youth Working Committee.</li>
+        <li>Member of CIPS, Social Media Processing Committee &amp; Information Retrieval Committee.</li>
+        <li>Area Chair: ACL, EMNLP, NAACL, IJCAI, AAAI, WWW.</li>
+      </ul>
+    </section>
 
-<h3><strong>2018</strong></h3>
+    <footer class="site-footer">© 2026 Ruobing Xie</footer>
+  </main>
+</div>
 
-<li>
-	Language Modeling with Sparse Product of Sememe Experts. <i>EMNLP'18</i>. [<A HREF="publications/EMNLP-18_sememe_LM.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/SDLM-pytorch" target=_blank>codes</A>].<br>
-	Yihong Gu, Jun Yan, Hao Zhu, Zhiyuan Liu, <b>Ruobing Xie</b>, Maosong Sun, Fen Lin and Leyu Lin. <br>
-</li>
-<li>
-	Cross-lingual Lexical Sememe Prediction. <i>EMNLP'18</i>. [<A HREF="publications/EMNLP-18_cross.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/CLSP" target=_blank>codes</A>].<br>
-	Fanchao Qi, Yankai Lin, Maosong Sun, Hao Zhu, <b>Ruobing Xie</b> and Zhiyuan Liu. <br>
-</li>
-<li>
-	Incorporating Chinese Characters of Words for Lexical Sememe Prediction. <i>ACL'18</i>. [<A HREF="publications/ACL-18_cha.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/Character-enhanced-Sememe-Prediction" target=_blank>codes</A>].<br>
-	Huiming Jin*, Hao Zhu*, Zhiyuan Liu, <b>Ruobing Xie</b>, Maosong Sun, Fen Lin, Leyu Lin. <br>
-</li>
-<li>
-	Does William Shakespeare REALLY Write Hamlet? Knowledge Representation Learning with Confidence. <i>AAAI'18</i>. [<A HREF="publications/AAAI-18-confidence.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/CKRL" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie</b>, Zhiyuan Liu, Fen Lin, Leyu Lin. <br>
-</li>
+<script>
+(function () {
+  var bar = document.querySelector(".topbar");
+  var links = Array.prototype.slice.call(document.querySelectorAll(".nav a"));
+  var sections = links.map(function (a) {
+    return document.querySelector(a.getAttribute("href"));
+  }).filter(Boolean);
 
-<h3><strong>2017</strong></h3>
+  function onScroll() {
+    bar.classList.toggle("scrolled", window.scrollY > 4);
+  }
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
 
-<li>
-	Image-embodied Knowledge Representation Learning. <i>IJCAI'17</i>. [<A HREF="publications/IJCAI-17_image.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/IKRL" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie</b>, Zhiyuan Liu, Huanbo Luan, Maosong Sun. <br>
-</li>
-<li>
-	Iterative Entity Alignment via Joint Knowledge Embeddings. <i>IJCAI'17</i>. [<A HREF="publications/IJCAI-17_entity.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/IEAKE" target=_blank>codes</A>].<br>
-	Hao Zhu*, <b>Ruobing Xie*</b>, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	Lexical Sememe Prediction via Word Embeddings and Matrix Factorization. <i>IJCAI'17</i>. [<A HREF="publications/IJCAI-17_sememe.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/Sememe_prediction" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie*</b>, Xingchi Yuan*, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	Improved Word Representation Learning with Sememes. <i>ACL'17</i>. [<A HREF="publications/ACL-17_sememe.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/SE-WRL" target=_blank>codes</A>].<br>
-	Yilin Niu*, <b>Ruobing Xie*</b>, Zhiyuan Liu, Maosong Sun. <br>
-</li>
+  function sectionTop(el) {
+    return el.getBoundingClientRect().top + window.scrollY;
+  }
 
-<h3><strong>2016</strong></h3>
+  function markActive() {
+    var y = window.scrollY + 110;
+    var current = sections[0] ? sections[0].id : "";
+    sections.forEach(function (section) {
+      if (sectionTop(section) <= y) current = section.id;
+    });
+    links.forEach(function (a) {
+      a.classList.toggle("active", a.getAttribute("href") === "#" + current);
+    });
+  }
 
-<li>
-	Crossmodal language grounding, learning, and teaching. <i>NIPS'16, Workshop</i>. [<A HREF="publications/NIPS-16_crossmodal.pdf" target=_blank>pdf</A>].<br>
-	Stefan Heinrich, Cornelius Weber, Stefan Wermter, <b>Ruobing Xie</b>, Yankai Lin, Zhiyuan Liu. <br>
-</li>
-<li>
-	Representation Learning of Knowledge Graphs with Hierarchical Types. <i>IJCAI'16</i>. [<A HREF="publications/IJCAI-16_type.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/thunlp/TKRL" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun. <br>
-</li>
-<li>
-	Representation Learning of Knowledge Graphs with Entity Descriptions. <i>AAAI'16</i>. [<A HREF="publications/AAAI-16_description.pdf" target=_blank>pdf</A>][<A HREF="https://github.com/xrb92/DKRL" target=_blank>codes</A>].<br>
-	<b>Ruobing Xie</b>, Zhiyuan Liu, Jia Jia, Huanbo Luan, Maosong Sun. <br>
-</li>
-<li>
-	Knowledge Representation Learning: A Review. <i>Journal of Computer Research and Development</i>. [<A HREF="publications/JCRD-16_knowledge.pdf" target=_blank>pdf</A>].<br>
-	Zhiyuan Liu, Maosong Sun, Yankai Lin, <b>Ruobing Xie</b>. <br>
-</li>
-
-</ol>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  markActive();
+  window.addEventListener("scroll", markActive, { passive: true });
+})();
 </script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-1910977-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
-<h2><a id=News>Talks</a></h2>
-<ul>
-<li>[Nov. 2023]		CCIR 2023 talk: Directions of Recommendation in the Era of LLM (<FONT style="FONT-FAMILY: 楷体">推荐系统大模型的三条技术路径</FONT>) [<A HREF="publications/202311-Ruobing_Xie.pdf" target=_blank>slides</A>].
-</ul>
-
-<h2><a name=Education>Education and Experience</a></h2>
-<ul>
-<li>Jul. 2017 - present. Senior Researcher, Tencent, Beijing.
-<li>Sep. 2014 - Jul. 2017. M.S. candidate, Dept. of Computer Science and Technology, Tsinghua University, Beijing, China.
-<li>Sep. 2010 - Jul. 2014. B.S., Dept. of Computer Science and Technology, Tsinghua University, Beijing, China.
-<li>Sep. 2007 - Jul. 2010. Yali high school, Changsha, Hunan, China.
-</ul>
-
-<h2><a name=Awards>Awards</a></h2>
-<ul>
-<li>2025. EMNLP 2025 SAC highlight.
-<li>2024. Best Full Paper Award of RecSys 2024.
-<li>2024. World's Top 2 % Scientists.
-<li>2024. Best Paper Candidate of CCIR 2024.
-<li>2023. Best Short Paper Award of RecSys 2023.
-<li>2023. Paper Award Nominations of TheWebConf 2023 (spotlight).
-<li>2022. AI 2000 Most Influential Scholar Award Honorable Mention (2022,2023,2024).
-<li>2020. The first prize of the Natural Science Award (Science and Technology) of the Ministry of Education.
-<li>2017. Beijing Excellent Graduate; Excellent Graduate & Master Thesis, Tsinghua University. ( Top 1.3%, 71 in 5304 )
-<li>2016. Siebel Scholars. [<A HREF="http://www.siebelscholars.com" target=_blank>link</A>]
-<li>2014. Excellent Graduate, Tsinghua University.
-</ul>
-
-<h2><a name=Academic>Academic Services</a></h2>
-<ul>
-<li>Scholar of Young Talent Promoting Project of CAST.
-<li>Member of Chinese Information Processing Society of China (CIPS), Youth Working Committee [<A HREF="http://www.cipsc.org.cn/qngw/" target=_blank>link</A>]
-<li>Member of Chinese Information Processing Society of China (CIPS), Social Media Processing Committee & Information Retrieval Committee
-<li>AC/SPC: ACL, EMNLP, NAACL, IJCAI, AAAI
-<li>PC: NeurIPS, ICML, ICLR, KDD, WWW, SIGIR, CVPR, ICCV, IJCAI, ACMMM, EMNLP, NAACL, COLING, CIKM, WSDM, RecSys, ECML/PKDD, SDM, ICME, NLPCC, AACL, COLM
-<li>Journal reviewer: CL, TOIS, TKDE, SCIS, IPM, JWS, Information Sciences, FCS, Neurocomputing, TBD, MIR, Research
-</ul>
-
-<hr>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
