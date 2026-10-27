@@ -387,6 +387,13 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
 }
 
+.brief {
+  margin: 8px 0 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
 .res {
   font-weight: 600;
   text-decoration: none;

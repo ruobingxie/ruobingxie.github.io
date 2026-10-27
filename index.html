@@ -6,7 +6,7 @@
 <meta name="description" content="Homepage of Ruobing Xie, Senior Researcher at Tencent Hunyuan. Large language models, pre-training, and recommender systems.">
 <meta name="theme-color" content="#146c8a">
 <title>Ruobing Xie (谢若冰)</title>
-<link rel="stylesheet" href="xrb.css?v=6">
+<link rel="stylesheet" href="xrb.css?v=7">
 </head>
 <body>
 <header class="topbar">
@@ -15,6 +15,7 @@
     <nav class="nav" aria-label="Section">
       <a href="#bio">Bio</a>
       <a href="#news">News</a>
+      <a href="#recent">Recent work</a>
       <a href="#publications">Publications</a>
       <a href="#education">Education</a>
       <a href="#awards">Awards</a>
@@ -58,8 +59,8 @@
   <main>
     <section class="section" id="bio">
       <h2>Bio</h2>
-      <p class="lead">Ruobing Xie is a senior researcher of Tencent Hy. He received his BEng degree in 2014 and his master degree in 2017 from the Department of Computer Science and Technology, Tsinghua University. His research interests include Large Language Model, Pre-training, and Recommender System. He has published 100+ papers in top-tier conferences and journals including ACL, ICML, NeurIPS, KDD, AAAI, with 16000+ citations according to Google Scholar. He has received the first prize of the Natural Science Award (Science and Technology) of the Ministry of Education, RecSys 2024 Best Full Paper, RecSys 2023 Best Short Paper, the Paper Award Nominations of TheWebConf 2023 (spotlight), EMNLP 2025 SAC highlight, and CCIR 2024 best paper candidate. He is supported by Scholar of Young Talent Promoting Project of CAST, and is the World&#x27;s Top 2 % Scientists. He is a member of Chinese Information Processing Society of China, Youth Working Committee &amp; Social Media Processing Committee &amp; Information Retrieval Committee. He serves as AC of ACL, AAAI, WWW, EMNLP, NAACL, etc.</p>
-      <p class="lead"><span class="kaiti">谢若冰，腾讯混元高级研究员，2017年毕业于清华大学自然语言处理与社会人文计算实验室，人工智能高级工程师，主要研究方向为大语言模型、预训练、推荐系统等。他于</span>ACL、ICML、NeurIPS、KDD、AAAI<span class="kaiti">等顶会期刊共发表相关论文100余篇，</span>Google Scholar<span class="kaiti">统计引用超过16000次，</span>h index<span class="kaiti">超过50。他曾获教育部自然科学一等奖，世界互联网领先科技成果奖，</span>RecSys 2024<span class="kaiti">最佳论文，</span>RecSys 2023<span class="kaiti">最佳短文，</span>WWW 2023<span class="kaiti">亮点论文（最佳论文提名），</span>EMNLP 2025 SAC highlight<span class="kaiti">，</span>CCIR 2024<span class="kaiti">最佳论文提名等。他入选了中国科协青年人才托举工程，全球前2%顶尖科学家，西贝尔学者，担任中国中文信息学会青年工作委员会委员、社会媒体处理专委会委员、信息检索专委会通讯委员、</span>ACL/AAAI/WWW/EMNLP/NAACL<span class="kaiti">领域主席等。</span></p>
+      <p class="lead">Ruobing Xie is a senior researcher of Tencent Hy. He received his BEng degree in 2014 and his master degree in 2017 from the Department of Computer Science and Technology, Tsinghua University. His research interests include Large Language Model, Pre-training, and Recommender System. He has published 100+ papers in top-tier conferences and journals including ACL, ICML, NeurIPS, KDD, AAAI, with 17000+ citations according to Google Scholar. He has received the first prize of the Natural Science Award (Science and Technology) of the Ministry of Education, RecSys 2024 Best Full Paper, RecSys 2023 Best Short Paper, the Paper Award Nominations of TheWebConf 2023 (spotlight), EMNLP 2025 SAC highlight, and CCIR 2024 best paper candidate. He is supported by Scholar of Young Talent Promoting Project of CAST, and is the World&#x27;s Top 2 % Scientists. He is a member of Chinese Information Processing Society of China, Youth Working Committee &amp; Social Media Processing Committee &amp; Information Retrieval Committee. He serves as AC of ACL, AAAI, WWW, EMNLP, NAACL, etc.</p>
+      <p class="lead"><span class="kaiti">谢若冰，腾讯混元高级研究员，2017年毕业于清华大学自然语言处理与社会人文计算实验室，人工智能高级工程师，主要研究方向为大语言模型、预训练、推荐系统等。他于</span>ACL、ICML、NeurIPS、KDD、AAAI<span class="kaiti">等顶会期刊共发表相关论文100余篇，</span>Google Scholar<span class="kaiti">统计引用超过17000次，</span>h index<span class="kaiti">超过50。他曾获教育部自然科学一等奖，世界互联网领先科技成果奖，</span>RecSys 2024<span class="kaiti">最佳论文，</span>RecSys 2023<span class="kaiti">最佳短文，</span>WWW 2023<span class="kaiti">亮点论文（最佳论文提名），</span>EMNLP 2025 SAC highlight<span class="kaiti">，</span>CCIR 2024<span class="kaiti">最佳论文提名等。他入选了中国科协青年人才托举工程，全球前2%顶尖科学家，西贝尔学者，担任中国中文信息学会青年工作委员会委员、社会媒体处理专委会委员、信息检索专委会通讯委员、</span>ACL/AAAI/WWW/EMNLP/NAACL<span class="kaiti">领域主席等。</span></p>
     </section>
 
     <section class="section" id="news">
@@ -79,13 +80,27 @@
       </ul>
     </section>
 
+
+    <section class="section" id="recent">
+      <h2>Recent work</h2>
+      <article class="paper">
+        <h3>Hybrid Gated Attention</h3><p class="authors">Zekun Zhou, <b>Ruobing Xie</b>, Lanrui Wang, Weixuan Sun</p>
+        <p class="brief">This paper proposes Hybrid Gated Attention (HyGA), which combines three complementary multi-source gating strategies with low-rank decomposition and a learnable attention sink. HyGA reports consistent improvements over standard gated attention in training loss and downstream performance across backbones and compute budgets, reaching the Pareto frontier of effectiveness and efficiency. <a class="res" href="https://arxiv.org/abs/2608.11805" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+      </article>
+      <article class="paper">
+        <h3>Redesign Mixture-of-Experts Routers with Manifold Power Iteration</h3><p class="authors">Songhao Wu, Ang Lv, <b>Ruobing Xie</b>, Yankai Lin</p>
+        <p class="brief">This paper proposes Manifold Power Iteration (MPI), which uses a "Power-then-Retract" update to align each MoE router row with the principal singular direction of its expert, building direct connections between router weights and their corresponding experts' capabilities. MPI provides convergence guarantees and shows gains in pretraining MoE models from 1B to 11B parameters. <a class="res" href="https://arxiv.org/abs/2606.12397" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+      </article>
+    </section>
+
+
     <section class="section" id="publications">
       <h2>Selected Publications</h2>
       <p class="legend">* equal contribution &nbsp;&middot;&nbsp; &dagger; corresponding author</p>
 
       <h3 class="year" id="Pre-training">Pre-training</h3>
       <article class="paper"><h3>Towards a Comprehensive Scaling Law of Mixture-of-Experts</h3><p class="authors">Guoliang Zhao, Yuhan Fu, Shuaipeng Li, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, An Wang, Weidong Han, Zhen Yang, Weixuan Sun, Yudong Zhang, Cheng-zhong Xu, Di Wang, Jie Jiang</p><p class="meta"><span class="venue">EMNLP&#x27;26</span></p></article>
-      <article class="paper"><h3>Higher-Dimensional Rotary Position Embedding</h3><p class="authors">Yixing Li, <b>Ruobing Xie&dagger;</b>, Yudong Zhang, Yushi Bai, Xingwu Sun, Yu Cheng</p><p class="meta"><span class="venue">EMNLP&#x27;26 findings</span></p></article>
+      <article class="paper"><h3>Higher-Dimensional Rotary Position Embedding</h3><p class="authors">Yixing Li, <b>Ruobing Xie&dagger;</b>, Yudong Zhang, Yushi Bai, Xingwu Sun, Yu Cheng</p><p class="meta"><span class="venue">EMNLP&#x27;26</span></p></article>
       <article class="paper"><h3>TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model</h3><p class="authors">Yixing Li, <b>Ruobing Xie&dagger;</b>, Zhen Yang, Xingwu Sun, Shuaipeng Li, Weidong Han, Zhanhui Kang, Di Wang, Yu Cheng&dagger;.</p><p class="meta"><span class="venue">AAAI&#x27;26</span></p></article>
       <article class="paper"><h3>HMoE: Heterogeneous Mixture of Experts for Language Modeling</h3><p class="authors">An Wang, Xingwu Sun, <b>Ruobing Xie&dagger;</b>, Shuaipeng Li, Jiaqi Zhu, Zhen Yang, Pinxue Zhao, Weidong Han, Zhanhui Kang, Di Wang, Naoaki Okazaki, Cheng-zhong Xu.</p><p class="meta"><span class="venue">EMNLP&#x27;25</span><span class="badge">EMNLP 2025 SAC highlight</span></p></article>
       <article class="paper"><h3>Autonomy-of-Experts Models</h3><p class="authors">Ang Lv, <b>Ruobing Xie&dagger;</b>, Yining Qian, Songhao Wu, Xingwu Sun, Zhanhui Kang, Di Wang, Rui Yan&dagger;.</p><p class="meta"><span class="venue">ICML&#x27;25</span></p></article>
@@ -114,8 +129,8 @@
 
       <h3 class="year" id="survey">Tech Report and Survey</h3>
       <article class="paper"><h3>A Survey of Linear Attention: Algorithm, Theory, Application, and Infrastructure</h3><p class="authors">Yudong Zhang, Weixuan Sun, Wei Ding, Xingwu Sun, Ruiqi Xie, Hongyi Wang, Junjie Chen, Jiacheng Liu, Shaobo Wang, Yuwei Zhang, Yiqing Huang, Jiaming Wang, Tianchen Zhao, Weidong Han, Yanfeng Chen, Kai Zhang, Shuaipeng Li, <b>Ruobing Xie&dagger;</b>, Di Wang, Jiansheng Chen, Linfeng Zhang&dagger;, Chengzhong Xu, Yu Wang&dagger;</p><p class="meta"><span class="venue">TMLR&#x27;26</span></p></article>
-      <article class="paper"><h3>Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought</h3><p class="authors">Tencent Hunyuan Team.</p><p class="meta"><span class="venue">Tech report</span><a class="res" href="https://arxiv.org/abs/2505.15431" target="_blank" rel="noopener noreferrer">Technical report</a></p></article>
-      <article class="paper"><h3>Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent</h3><p class="authors">Xingwu Sun, Yanfeng Chen, Huang, and <b>Ruobing Xie</b>, Jiaqi Zhu, Kai Zhang, Shuaipeng Li, Zhen Yang and others.</p><p class="meta"><span class="venue">Tech report</span><a class="res" href="https://arxiv.org/abs/2411.02265" target="_blank" rel="noopener noreferrer">Technical report</a><a class="res" href="https://huggingface.co/tencent/Tencent-Hunyuan-Large" target="_blank" rel="noopener noreferrer">Models</a></p></article>
+      <article class="paper"><h3>Hunyuan-TurboS: Advancing Large Language Models through Mamba-Transformer Synergy and Adaptive Chain-of-Thought</h3><p class="authors">Tencent Hunyuan Team.</p><p class="meta"><span class="venue">Tech report</span></p></article>
+      <article class="paper"><h3>Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent</h3><p class="authors">Xingwu Sun, Yanfeng Chen, Huang, and <b>Ruobing Xie</b>, Jiaqi Zhu, Kai Zhang, Shuaipeng Li, Zhen Yang and others.</p><p class="meta"><span class="venue">Tech report</span></p></article>
       <article class="paper"><h3>A Survey on Causal Inference for Recommendation</h3><p class="authors">Huishi Luo, Fuzhen Zhuang, <b>Ruobing Xie</b>, Hengshu Zhu, Deqing Wang, Zhulin An, Yongjun Xu.</p><p class="meta"><span class="venue">The innovation</span></p></article>
 
 
@@ -127,7 +142,7 @@
       <article class="paper"><h3>Deep Feedback Network for Recommendation</h3><p class="authors"><b>Ruobing Xie*</b>, Cheng Ling*, Yalong Wang, Rui Wang, Feng Xia, Leyu Lin.</p><p class="meta"><span class="venue">IJCAI&#x27;20</span></p></article>
      
 
-      <h3 class="year" id="LLM4Rec">Knowledge Graph</h3>
+      <h3 class="year" id="Knowledge-Graph">Knowledge Graph</h3>
       <article class="paper"><h3>Does William Shakespeare REALLY Write Hamlet? Knowledge Representation Learning with Confidence</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Fen Lin, Leyu Lin.</p><p class="meta"><span class="venue">AAAI&#x27;18</span></p></article>
       <article class="paper"><h3>Image-embodied Knowledge Representation Learning</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
       <article class="paper"><h3>Iterative Entity Alignment via Joint Knowledge Embeddings</h3><p class="authors">Hao Zhu*, <b>Ruobing Xie*</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
