@@ -6,7 +6,7 @@
 <meta name="description" content="Homepage of Ruobing Xie, Senior Researcher at Tencent Hunyuan. Large language models, pre-training, and recommender systems.">
 <meta name="theme-color" content="#146c8a">
 <title>Ruobing Xie (谢若冰)</title>
-<link rel="stylesheet" href="xrb.css?v=7">
+<link rel="stylesheet" href="xrb.css?v=8">
 </head>
 <body>
 <header class="topbar">
@@ -84,14 +84,21 @@
     <section class="section" id="recent">
       <h2>Recent work</h2>
       <article class="paper">
-        <h3>Hybrid Gated Attention</h3><p class="authors">Zekun Zhou, <b>Ruobing Xie</b>, Lanrui Wang, Weixuan Sun</p>
+        <h3>Hybrid Gated Attention<sup class="mark-new">New</sup></h3><p class="authors">Zekun Zhou, <b>Ruobing Xie</b>, Lanrui Wang, Weixuan Sun</p>
         <p class="brief">This paper proposes Hybrid Gated Attention (HyGA), which combines three complementary multi-source gating strategies with low-rank decomposition and a learnable attention sink. HyGA reports consistent improvements over standard gated attention in training loss and downstream performance across backbones and compute budgets, reaching the Pareto frontier of effectiveness and efficiency. <a class="res" href="https://arxiv.org/abs/2608.11805" target="_blank" rel="noopener noreferrer">arXiv</a></p>
       </article>
       <article class="paper">
-        <h3>Redesign Mixture-of-Experts Routers with Manifold Power Iteration</h3><p class="authors">Songhao Wu, Ang Lv, <b>Ruobing Xie</b>, Yankai Lin</p>
+        <h3>Redesign Mixture-of-Experts Routers with Manifold Power Iteration<sup class="mark-new">New</sup></h3><p class="authors">Songhao Wu, Ang Lv, <b>Ruobing Xie</b>, Yankai Lin</p>
         <p class="brief">This paper proposes Manifold Power Iteration (MPI), which uses a "Power-then-Retract" update to align each MoE router row with the principal singular direction of its expert, building direct connections between router weights and their corresponding experts' capabilities. MPI provides convergence guarantees and shows gains in pretraining MoE models from 1B to 11B parameters. <a class="res" href="https://arxiv.org/abs/2606.12397" target="_blank" rel="noopener noreferrer">arXiv</a></p>
       </article>
+      <article class="paper">
+        <h3>Shaping Latent Mixture-of-Experts: From Expert Geometry to Layerwise Capacity Allocation<sup class="mark-new">New</sup></h3><p class="authors">Yaoxiang Wang, Kai Zhang, <b>Ruobing Xie</b>, Lanrui Wang, Guoliang Zhao, Junhui Li, Jinsong Su</p>
+        <p class="brief">This paper treats expert shape as an explicit design axis for MoEs (especially for recent LLMs with LatentMoE that have many thin experts). It shows that near-square experts achieve better performance, and layerwise intrinsic dimension better guides fine-grained expert count/shape allocation across depth. <a class="res" href="https://arxiv.org/abs/2610.14644" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+      </article>
     </section>
+
+
+
 
 
     <section class="section" id="publications">
@@ -110,14 +117,14 @@
       <article class="paper"><h3>Find Your Optimal Teacher: Personalized Data Synthesis via Router-Guided Multi-Teacher Distillation</h3><p class="authors">Hengyuan Zhang, Shiping Yang, Xiao Liang, Chenming Shang, Yuxuan Jiang, Chaofan Tao, Jing Xiong, Hayden Kwok-Hay So, <b>Ruobing Xie</b>, Angel X Chang, Ngai Wong</p><p class="meta"><span class="venue">ACL&#x27;26</span><span class="badge">ACL 2026 Award Nomination</span></p></article>
       <article class="paper"><h3>Proximal Supervised Fine-Tuning</h3><p class="authors">Wenhong Zhu, <b>Ruobing Xie&dagger;</b>, Rui Wang, Xingwu Sun, Di Wang, Pengfei Liu.</p><p class="meta"><span class="venue">ICLR&#x27;26</span></p></article>
       <article class="paper"><h3>Advancing LLM Reasoning Generalists with Preference Trees</h3><p class="authors">Lifan Yuan, Ganqu Cui, Hanbin Wang, Ning Ding, Xingyao Wang, Boji Shan, Zeyuan Liu, Jia Deng, Huimin Chen, <b>Ruobing Xie</b>, Yankai Lin, Zhenghao Liu, Bowen Zhou, Hao Peng, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;25</span></p></article>
-      <article class="paper"><h3>ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback</h3><p class="authors">Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao, Bingxiang He, Wei Zhu, Yuan Ni, Guotong Xie, <b>Ruobing Xie</b>, Yankai Lin, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICML&#x27;24</span></p></article>
+      <article class="paper"><h3>ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback</h3><p class="authors">Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao, Bingxiang He, Wei Zhu, Yuan Ni, Guotong Xie, <b>Ruobing Xie</b>, Yankai Lin, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICML&#x27;24</span><span class="badge">1000+ citations</span></p></article>
 
 
       <h3 class="year" id="Agent">Agent and Tool Learning</h3>
-      <article class="paper"><h3>Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence</h3><p class="authors">Weize Chen, Ziming You, Ran Li, yitong guan, Chen Qian, Chenyang Zhao, Cheng Yang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;25</span><span class="badge">Spotlight</span></p></article>
+      <article class="paper"><h3>Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence</h3><p class="authors">Weize Chen, Ziming You, Ran Li, yitong guan, Chen Qian, Chenyang Zhao, Cheng Yang, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;25</span></p></article>
       <article class="paper"><h3>AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems</h3><p class="authors">Junjie Zhang, Yupeng Hou, <b>Ruobing Xie</b>, Wenqi Sun, Julian McAuley, Xin Zhao, Leyu Lin, Ji-Rong Wen.</p><p class="meta"><span class="venue">WWW&#x27;24</span></p></article>
-      <article class="paper"><h3>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</h3><p class="authors">Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, <b>Ruobing Xie</b>, Jie Zhou, Mark Gerstein, dahai li, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;24</span><span class="badge">Spotlight</span></p></article>
-      <article class="paper"><h3>AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents</h3><p class="authors">Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou.</p><p class="meta"><span class="venue">ICLR&#x27;24</span></p></article>
+      <article class="paper"><h3>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</h3><p class="authors">Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, <b>Ruobing Xie</b>, Jie Zhou, Mark Gerstein, dahai li, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">ICLR&#x27;24</span><span class="badge">1000+ citations</span></p></article>
+      <article class="paper"><h3>AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents</h3><p class="authors">Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, <b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun, Jie Zhou.</p><p class="meta"><span class="venue">ICLR&#x27;24</span><span class="badge">1000+ citations</span></p></article>
 
 
       <h3 class="year" id="LLM4Rec">LLM for Recommendation</h3>
@@ -147,7 +154,7 @@
       <article class="paper"><h3>Image-embodied Knowledge Representation Learning</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
       <article class="paper"><h3>Iterative Entity Alignment via Joint Knowledge Embeddings</h3><p class="authors">Hao Zhu*, <b>Ruobing Xie*</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;17</span></p></article>
       <article class="paper"><h3>Representation Learning of Knowledge Graphs with Hierarchical Types</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Maosong Sun.</p><p class="meta"><span class="venue">IJCAI&#x27;16</span></p></article>
-      <article class="paper"><h3>Representation Learning of Knowledge Graphs with Entity Descriptions</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Jia Jia, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">AAAI&#x27;16</span></p></article>
+      <article class="paper"><h3>Representation Learning of Knowledge Graphs with Entity Descriptions</h3><p class="authors"><b>Ruobing Xie</b>, Zhiyuan Liu, Jia Jia, Huanbo Luan, Maosong Sun.</p><p class="meta"><span class="venue">AAAI&#x27;16</span><span class="badge">1000+ citations</span></p></article>
 
 
     </section>
@@ -171,7 +178,7 @@
         <li><time>2023.</time><span>RecSys 2023 Best Short Paper Award.</span></li>
         <li><time>2023.</time><span>Paper Award Nominations of TheWebConf 2023 (spotlight).</span></li>
         <li><time>2020.</time><span>The first prize of the Natural Science Award (Science and Technology) of the Ministry of Education.</span></li>
-        <li><time>2016.</time><span>Siebel Scholars. <a class="res" href="http://www.siebelscholars.com" target="_blank" rel="noopener noreferrer">Link</a></span></li>
+        <li><time>2016.</time><span>Siebel Scholars.</span></li>
       </ul>
     </section>
 

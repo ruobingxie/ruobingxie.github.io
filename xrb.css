@@ -360,6 +360,24 @@ img { max-width: 100%; display: block; }
   letter-spacing: -0.01em;
 }
 
+.mark-new {
+  display: inline-block;
+  position: relative;
+  top: -0.72em;
+  margin-left: 0.38em;
+  padding: 0.18em 0.42em 0.14em;
+  border-radius: 999px;
+  background: var(--emphasis);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
 .authors {
   margin: 4px 0 0;
   color: var(--muted);
